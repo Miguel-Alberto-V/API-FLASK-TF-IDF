@@ -1,0 +1,1726 @@
+Title,Link,Votes,Content
+Loss becomes Nan after attention_mask is added to the model while fine-tuning gemma2,https://stackoverflow.com/questions/78938529/loss-becomes-nan-after-attention-mask-is-added-to-the-model-while-fine-tuning-ge,0,"I was trying to fine-tune gemma2 2b model on my own dataset for sequence classification tasks. But when I was testing the model, I found that after I plugged in the attention_mask to the model, the ..."
+"python swifter rolling() runtime error ""__init__() got an unexpected keyword argument 'axis'""",https://stackoverflow.com/questions/78938508/python-swifter-rolling-runtime-error-init-got-an-unexpected-keyword-arg,0,"When I'm running rolling() with swifter like below, I get a runtime error ""init() got an unexpected keyword argument 'axis'"".
+import numpy as np
+import pandas as pd
+import swifter
+
+t = np...."
+How to make combobox in flet?,https://stackoverflow.com/questions/78938507/how-to-make-combobox-in-flet,0,"I'm working on small chat app and frontend of it written in Flet. I would like to add search functionality with following flow:
+
+There's search field in UserControl;
+User clicks on this field, enters ..."
+How to stop Selenium from automatically clicking an element?,https://stackoverflow.com/questions/78938487/how-to-stop-selenium-from-automatically-clicking-an-element,0,"I'm practicing web automation in Python with Selenium using the GitHub website, and in my code I've created a unittest with page objects to test logging in, checking for the presence of the username ..."
+Python Dependency Injection + Testing Pattern: Possible in Java?,https://stackoverflow.com/questions/78938470/python-dependency-injection-testing-pattern-possible-in-java,-1,"I'm working on a project in Python that uses dependency injection and unit testing. I'm curious if a similar pattern could be implemented in Java. Here's my Python code:
+from abc import ABC, ..."
+Using Regex to Split Subsections With Unique Titles,https://stackoverflow.com/questions/78938440/using-regex-to-split-subsections-with-unique-titles,1,"I'm struggling to find a way to split a corpus of legal documents I have, by section. I've been trying to do this with regex, and while I've come reasonably close, I'm looking to see if there's a way ..."
+Why the Airflow dag is not getting triggered?,https://stackoverflow.com/questions/78938424/why-the-airflow-dag-is-not-getting-triggered,0,"I have attached the code. It's 1st Sept 2024, Sunday, 21:45 UTC. Dag should have triggered. What's the problem with it ? I had to manually trigger it. BTW, rest of the dags are running fine, getting ..."
+Find a fragment in the whole image,https://stackoverflow.com/questions/78938398/find-a-fragment-in-the-whole-image,0,"Globally, my task is to determine the similarity / dissimilarity of two .jpg files.
+Below I will describe the process in more detail. I have five (in reality there are more) template .jpg files. And I ..."
+Matplotlib broke after Ubuntu update,https://stackoverflow.com/questions/78938395/matplotlib-broke-after-ubuntu-update,0,"I just updated Ubuntu to 24.04.1 LTS and I'm having some trouble with Matplotlib in my Anaconda Python setup. Most of the other scientific libraries I use appear to be fine.
+I'll try to run (in Spyder)..."
+How to simply send an mp3 from current directory to user? JavaScript/Flask,https://stackoverflow.com/questions/78938390/how-to-simply-send-an-mp3-from-current-directory-to-user-javascript-flask,0,"I have this flask backend, which in the future will generate mp3 files dynamically upon user request but for now it's just a way to route functions.
+The problem I am facing is that when the user goes ..."
+"The screen is white for a few seconds when I open the window of my application, written in Python using the ""arcade"" library",https://stackoverflow.com/questions/78938324/the-screen-is-white-for-a-few-seconds-when-i-open-the-window-of-my-application,0,"When I run the code it opens the window but there's a white screen for few seconds before the game starts:
+
+How can I fix that?
+My code:
+from random import shuffle, randint
+import arcade
+from typing ..."
+"Custom linkage matrix, Dendrogram labels aren't correct",https://stackoverflow.com/questions/78938314/custom-linkage-matrix-dendrogram-labels-arent-correct,0,"I created my own linkage function, that produces a linkage matrix with the right format of scipy (n-1x4).
+When I try to use the dendrogram function with the labels I used for the linkage, the ..."
+The difference between math.trunc() and int() in python [duplicate],https://stackoverflow.com/questions/78938312/the-difference-between-math-trunc-and-int-in-python,0,what is the difference between math.trunc() in math module and the int function in python both of them return remove the fractional part of a number and I think it has some reasons that python let ...
+GradCam returns different results for each approach,https://stackoverflow.com/questions/78938302/gradcam-returns-different-results-for-each-approach,0,"I want to understand what my CNN model is focusing on. I've read that analyzing the last layer can help, but each method I've used to generate Grad-CAM shows different results. These often suggest ..."
+Why inplace masking doesn't work when dataframe columns are referenced using loc like this?,https://stackoverflow.com/questions/78938295/why-inplace-masking-doesnt-work-when-dataframe-columns-are-referenced-using-loc,1,"Applying the mask method to this dataframe should substitute 0 with NaN's according to docs, but doesn't. Why?
+import pandas as pd
+
+# create a test dataframe.
+test_df = pd.DataFrame({'a': ['bar', 'bar'..."
+AWS - Map Accounts and Applications with Group,https://stackoverflow.com/questions/78938292/aws-map-accounts-and-applications-with-group,0,"I am trying to get AWS Identity store group details. Is there any way to map Groups and their accounts (Prod, Dev, or something else) and Applications available for the group/account (Snowflake, ..."
+Should authentication_classes and permission_classes in Django REST Framework Views Be Defined with Lists or Tuples?,https://stackoverflow.com/questions/78938285/should-authentication-classes-and-permission-classes-in-django-rest-framework-vi,1,"I'm trying to understand the best practice for setting authentication_classes and permission_classes in Django REST Framework's APIView. Specifically, I’ve seen both tuples and lists being used to ..."
+pycryptodome do not install correctly with pip,https://stackoverflow.com/questions/78938267/pycryptodome-do-not-install-correctly-with-pip,0,"I am currently writing a code in python that is need of ""pycryptodome"". At the start of the code I import the Cryptodome.Cipher and i have installed pycryptodome with the help of pip. ..."
+Passing Exception type and type hinting,https://stackoverflow.com/questions/78938260/passing-exception-type-and-type-hinting,0,"I have the following python code:
+from pathlib import Path
+
+def ffind_overview_ex(base_dir: Path, exc: Exception = FileNotFoundError) -> Path:
+    try:
+        # do something
+
+    except Exception ..."
+"What is the problem i am facing in my code ""{"" after this [closed]",https://stackoverflow.com/questions/78938243/what-is-the-problem-i-am-facing-in-my-code-after-this,-5,"student = {
+    ""name"" : ""rahul"",
+    ""sub"" : {
+  ""maths"" : ""A"",
+        ""phy"" : ""B"",
+
+        
+    }  ,
+ {
+     ""hel"": &..."
+Computing cross-sectional rankings using a tidy polars dataframe,https://stackoverflow.com/questions/78938211/computing-cross-sectional-rankings-using-a-tidy-polars-dataframe,2,"I need to compute cross-sectional rankings across a number of trading securities. Consider the following pl.DataFrame in long (tidy) format. It comprises three different symbols with respective prices,..."
+Whats the difference between asyncio and multithreading in python?,https://stackoverflow.com/questions/78938209/whats-the-difference-between-asyncio-and-multithreading-in-python,1,"Multi-threading
+import threading
+
+def heavy_computation():
+    # A CPU-bound task
+    result = sum(x * x for x in range(10**6))
+
+threads = []
+for _ in range(4):
+    t = threading.Thread(target=..."
+PyInstaller .app generated file opens at terminal but won't open when double-clicking,https://stackoverflow.com/questions/78938201/pyinstaller-app-generated-file-opens-at-terminal-but-wont-open-when-double-cli,0,"When I run pyinstaller file.spec on Windows, the .exe file is successfully generated and I can open it without any problem. When I run this command on macOS, the bundle is also generated, but when I ..."
+How to Optimize Memory Usage in Python by Reusing Large Objects [closed],https://stackoverflow.com/questions/78938150/how-to-optimize-memory-usage-in-python-by-reusing-large-objects,-1,I'm working on a Python application where I frequently need to process large data sets. I've noticed that my program's memory usage spikes when I create multiple large objects (like lists or arrays) ...
+Python Django getting a TemplateDoesNotExist at / when deploying site to PythonAnywhere [closed],https://stackoverflow.com/questions/78938144/python-django-getting-a-templatedoesnotexist-at-when-deploying-site-to-pythona,0,"enter image description here
+I keep getting this error message when trying to deploy my site on pythonanywhere's site. When I try it locally, it works without any issue. I am just wondering why the ..."
+Python (pyparsing): parsing legacy curly braces file format,https://stackoverflow.com/questions/78938115/python-pyparsing-parsing-legacy-curly-braces-file-format,0,"I have to parse with Python (pyparse) a legacy file format that is not well defined.
+It is of the curly brace family (im fact, having to parse arbitrary curly brace formats is a recurring issue ..."
+Is there a way to store a sparse matrix on disk an read and write effciently in python,https://stackoverflow.com/questions/78938087/is-there-a-way-to-store-a-sparse-matrix-on-disk-an-read-and-write-effciently-in,-1,"I need a way to create a (100_000, 2E8) sparse matrix on disk and be able to:
+
+Read from it without first converting to another format, or only converting the slices (sub-matrix) I need to in memory ..."
+Making a user-friendly input for subdividing a square into coordinates,https://stackoverflow.com/questions/78938085/making-a-user-friendly-input-for-subdividing-a-square-into-coordinates,1,"I am working on a program (in Python) that involves cutting a square(s) into smaller pieces.
+The user has to enter a 'code', which the program will automatically convert into the coordinates for each ..."
+Tracebacks in Python when exceeding recursion limit,https://stackoverflow.com/questions/78938073/tracebacks-in-python-when-exceeding-recursion-limit,0,"When I run a recursive function and it exceeds the recursion depth limit, the below error is displayed:
+Python 3.12.4+ (heads/3.12:99bc8589f0, Jul 27 2024, 11:20:07) [GCC 12.2.0] on linux
+Type ""..."
+How to change the highlight color for PySide6 class names in PyCharm?,https://stackoverflow.com/questions/78938054/how-to-change-the-highlight-color-for-pyside6-class-names-in-pycharm,0,"In PyCharm's Settings > Editor > Color Scheme there doesn't seem to be any way to change the color of PySide6 class names. They all come up as black.
+I tried settings under Language Defaults >..."
+How to return DataFrame from flask view function and to another python request,https://stackoverflow.com/questions/78937986/how-to-return-dataframe-from-flask-view-function-and-to-another-python-request,-1,"Python 1 app is calling url to receive DataFrame.
+ret = requests.post(url, json = myobj)
+
+Another python 2 app flask view function is supposed to reurn Dataframe .
+How to do because falsk function is ..."
+How to catch a repeating pattern with regex in a string?,https://stackoverflow.com/questions/78937962/how-to-catch-a-repeating-pattern-with-regex-in-a-string,1,"I have a bunch of strings like this:
+abc#axyz(abc#axyz#a#aabc)abc#axyz. What I need to do is remove all the #a that appear in the text between brackets, while those outside should remain. I've tried ..."
+Unable to convert cuda:0 device type tensor to numpy,https://stackoverflow.com/questions/78937921/unable-to-convert-cuda0-device-type-tensor-to-numpy,0,"I have y_hat variable of type list. I am unable to convert it to numpy array. It gives following error:
+TypeError: can't convert cuda:0 device type tensor to numpy. Use Tensor.cpu() to copy the tensor ..."
+is there a better (?) way to maintain a bidirectional mapping of strings,https://stackoverflow.com/questions/78937912/is-there-a-better-way-to-maintain-a-bidirectional-mapping-of-strings,0,"I've got a use case for what I'll call an ""invertible dictionary"" -- because I don't know a better term for it.  I've got a set of data where the values for some properties are repeated all ..."
+ffmpeg command problem in python to remove silences at the beggining and end. error: returned non-zero exit status 4294967274,https://stackoverflow.com/questions/78937907/ffmpeg-command-problem-in-python-to-remove-silences-at-the-beggining-and-end-er,0,"I have a problem regarding ffmpeg use in jupyter notebooks. I'm trying to use this funcion for an audio, but I get the below error, I have tried changing the file to wav and different specifications ..."
+xhtml2pdf not vertically centering text,https://stackoverflow.com/questions/78937906/xhtml2pdf-not-vertically-centering-text,0,"The example below results in top aligned text, yet running with any other html+css editor results in centered text.
+According to the docs, all tags used are supported.
+""<div style='background-..."
+Confirm if Python script process is running,https://stackoverflow.com/questions/78937897/confirm-if-python-script-process-is-running,1,"I want to check if a specific Python script is running. The script is ""EXIF_GUI_EXPERIMENT.py"". Running the script below returns nothing.
+If I run ps -fA in the terminal I see the script is ..."
+"I can't install anything using pip, even though I'm using the latest version, and Python is the latest version too [duplicate]",https://stackoverflow.com/questions/78937879/i-cant-install-anything-using-pip-even-though-im-using-the-latest-version-an,-1,"I'm trying to install turtle,  but it isn't working!
+I did this in terminal:
+macbookair@MacbookdeAir ~ % pip3 install turtle
+Collecting turtle
+  Downloading turtle-0.0.2.tar.gz (11 kB)
+  Installing ..."
+How to extract crack contours from binary images?,https://stackoverflow.com/questions/78937823/how-to-extract-crack-contours-from-binary-images,-1,"My images are like this；
+
+I want to extract the contours like this:
+
+My Python code is:
+import matplotlib.pyplot as plt
+import matplotlib
+matplotlib.rc(""font"", family='SimHei')
+import numpy ..."
+Error in Sampler Function in Qiskit Runtime - Issue with Quantum Kernel Execution,https://stackoverflow.com/questions/78937810/error-in-sampler-function-in-qiskit-runtime-issue-with-quantum-kernel-executio,0,"is the sampler function that is used in qiskitruntime still available because i am using qiksit version 1.2.0 and I am facing an error stating that the sampler function is no longer available.
+can ..."
+AttributeError: module 'torch' has no attribute 'version' when use optim,https://stackoverflow.com/questions/78937779/attributeerror-module-torch-has-no-attribute-version-when-use-optim,0,"I use this code to define optimizer but I receive the error.
+ctc_loss = CTCLoss(blank=0, zero_infinity=True)
+optimizer = optim.Adam(model.parameters(), lr=0.001)
+
+My full code about is:
+# Chuẩn bị ..."
+Need help submitting post request to Mongo using Python,https://stackoverflow.com/questions/78937772/need-help-submitting-post-request-to-mongo-using-python,-2,"I'm trying to make a POST request to store some data in a mongoDB collection using Python as a backend. All the relevant imports should be in place, as I am already working with an existing codebase.
+..."
+Pytorch `DataSet.__getitem__()` called with `index` bigger than `__len__()`,https://stackoverflow.com/questions/78937759/pytorch-dataset-getitem-called-with-index-bigger-than-len,0,"I have following torch dataset (I have replaced actual code to read data from files with random number generation to make it minimal reproducible):
+from torch.utils.data import Dataset
+import torch 
+
+..."
+How to define a channel-wise finite-differencing kernel in tensorflow,https://stackoverflow.com/questions/78937753/how-to-define-a-channel-wise-finite-differencing-kernel-in-tensorflow,0,"I want to implement spatial finite differences using a tensorflow conv2d layer with a fixed kernel.
+My input data X is of size (nbatch,nx,ny,nchannel) and the output Y must be of the same shape with
+Y[..."
+"Explanation of code sequence in ""Murach's Python for Data Science""",https://stackoverflow.com/questions/78937726/explanation-of-code-sequence-in-murachs-python-for-data-science,-3,"The book is an excellent introduction to pandas, but occasionally leaves me hanging. Briefly, shots is a dataFrame containing info on Stephen Curry's shots during a full NBA season. action_type is a ..."
+Python: why list*2 and list+list sometimes (but not always) return the same list? [duplicate],https://stackoverflow.com/questions/78937724/python-why-list2-and-listlist-sometimes-but-not-always-return-the-same-list,0,"The code:
+k = [[1], [2]]
+print(id(k+k), id(k*2))
+
+returns the same number twice, indicating the two expressions direct to the same place in memory.
+But the code:
+k = [[1], [2]]
+print(id(k+k))
+print(id(..."
+Can Panel support hosting Open3D as a local host website?,https://stackoverflow.com/questions/78937671/can-panel-support-hosting-open3d-as-a-local-host-website,0,I am currently trying to create a Panel dashboard which contains a locally hosted website. Specifically using Open3D's web visualiser. Currently I can get the web visualiser to work and accessible on ...
+Problem with testing python flask app using pytest,https://stackoverflow.com/questions/78937667/problem-with-testing-python-flask-app-using-pytest,-1,"So I created a simple flask app to create ToDo List as a way to practice python and I'm trying to write tests for it. Here is code for it:
+def test_register_new_user_redirect(client, app):
+    ..."
+Poetry is not installing packages in Docker image,https://stackoverflow.com/questions/78937663/poetry-is-not-installing-packages-in-docker-image,0,"When running a container from the built image, Poetry does not install packages, although everything seems to be fine with it.
+I set up Poetry, downloaded it, then installed the packages, but when the ..."
+How to get text in beautifulsoup as .innerText and not as .textContent in JS,https://stackoverflow.com/questions/78937655/how-to-get-text-in-beautifulsoup-as-innertext-and-not-as-textcontent-in-js,1,"I have an HTML file that contains text inside a p tag, something like this:
+<body>
+    <p>Lorem ipsum dolor sit amet, 
+        consectetur adipiscing elit. 
+        Maecenas sed mi lacus. 
+..."
+How's the new concept of solving Fibanocci sequence which uses O(1) in space and O(n) in time [closed],https://stackoverflow.com/questions/78937651/hows-the-new-concept-of-solving-fibanocci-sequence-which-uses-o1-in-space-and,-7,"#For printing the Fibonacci value using position 
+def fib(self, n: int) -> int:
+        a,b = 1,0
+        for i in range(1, n):
+            if a <= b:
+                a += b
+            else:
+   ..."
+"I am using Python 3.11 on Windows 11. I tried restarting CMD, but still no result. Please [closed]",https://stackoverflow.com/questions/78937645/i-am-using-python-3-11-on-windows-11-i-tried-restarting-cmd-but-still-no-resul,0,"I tried running the python code, but it doesn't seem to work.
+Here is my code:
+import random
+import socks
+import socket
+import time
+import threading
+import os
+from colorama import init, Fore, Style
+..."
+"Is there any way to calculate an entire world or a specific block from Minecraft seed, without going through a client or server [closed]",https://stackoverflow.com/questions/78937644/is-there-any-way-to-calculate-an-entire-world-or-a-specific-block-from-minecraft,-2,"Is there any way to calculate an entire world or a specific chuck from Minecraft seed, without going through a client or server.
+I mainly to https://github.com/Cubitect/cubiomes on the success of the ..."
+How can I change color of one district in a city with geopandas?,https://stackoverflow.com/questions/78937641/how-can-i-change-color-of-one-district-in-a-city-with-geopandas,0,"I am trying to extract one district (Hostafranca) in the map of Barcelona.
+For example, I want to make the following map. (Hostafranca is with red color)[text]Hostafranca in Barcelona
+I tried this ..."
+Adding quotes and parentheses to text file in Python [closed],https://stackoverflow.com/questions/78937632/adding-quotes-and-parentheses-to-text-file-in-python,-1,"I am rather new to programming and am confused.
+I created an excel file for data storage and turned it into a csv text file. I would like to add quotations around the string and parentheses around ..."
+Are response headers still used if headers argument is sent for a requests session call?,https://stackoverflow.com/questions/78937622/are-response-headers-still-used-if-headers-argument-is-sent-for-a-requests-sessi,-1,"I know the proper way to use a session is
+headers = {'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'}
+s = requests...."
+Why Does Adding Epsilon Not Prevent Zero Division in Integer Division? [closed],https://stackoverflow.com/questions/78937576/why-does-adding-epsilon-not-prevent-zero-division-in-integer-division,-2,"I am aware that there are better methods to handle division by zero in integer division. However, for educational purposes, I am curious about why adding a small epsilon value (1e-7) to the divisor in ..."
+"T5 for a multi-classification task with returning probabilities [0,1]",https://stackoverflow.com/questions/78937570/t5-for-a-multi-classification-task-with-returning-probabilities-0-1,0,So I have this task to fine tune CodeT5  using a large dataset for translating a given natural language command to a cmd of my command system. I am using beam_search = 3 as I want to have three output ...
+How to handle/remove trailing commas when building a comma separated string [duplicate],https://stackoverflow.com/questions/78937559/how-to-handle-remove-trailing-commas-when-building-a-comma-separated-string,-4,"Edit - the cited ""already answered here"" questions either do not apply or were themselves closed as they did not meet standards. My post does not apply solely to printing, nor did I mention ..."
+Agent stopped due to iteration limit or time limit,https://stackoverflow.com/questions/78937546/agent-stopped-due-to-iteration-limit-or-time-limit,0,"#!/usr/bin/env python
+import sys
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+from delta.crew import DeltaCrew
+
+def run():
+    """"""
+    Run the crew.
+    """"""
+   ..."
+fmin (scipy) and understanding parameter passing of the function in python,https://stackoverflow.com/questions/78937533/fmin-scipy-and-understanding-parameter-passing-of-the-function-in-python,0,"I've been trying to understand the parameter passing of fmin.
+This is given for our exercise:
+import numpy as np
+import matplotlib.pyplot as plt
+
+from scipy.optimize import fsolve, fmin
+from scipy...."
+How to optimize this Python loop with list comprehensions? [duplicate],https://stackoverflow.com/questions/78937482/how-to-optimize-this-python-loop-with-list-comprehensions,-2,"Here's my current code:
+result = []
+for item in my_list:
+    if condition(item):
+        result.append(transform(item))
+
+I'm trying to optimize a Python loop that iterates over a list, checks a ..."
+"Hello i am a 1.5 years experienced manual tester , had done python testing course how do i go ahead with my journey of automation tester [closed]",https://stackoverflow.com/questions/78937456/hello-i-am-a-1-5-years-experienced-manual-tester-had-done-python-testing-cours,-4,I had done python testing wanted start along side manual testing too what will i be prepare for interview and what sort question will be asked and to ehnance my cv what project i should done as python ...
+"How to solve errors in Python? (Attribute, Variable, etc.) [closed]",https://stackoverflow.com/questions/78937452/how-to-solve-errors-in-python-attribute-variable-etc,-5,"I want to know how to identify and solve problems such as Attribute Errors or Variable Errors, so I don't get problems while writing code and also improve my problem-solving skills, so I don't need to ..."
+Google text to speech and speech to text speaker diarization with AI,https://stackoverflow.com/questions/78937410/google-text-to-speech-and-speech-to-text-speaker-diarization-with-ai,0,"I am designing a python math project for my students, where they are given a topic e.g. properties of a circle and they should be able to ask interact with AI to receive assistance on anything they ..."
+why i can't use float in in integrer,https://stackoverflow.com/questions/78937395/why-i-cant-use-float-in-in-integrer,-4,"while counter < time :
+w = d*u.copy()
+
+for i in range(1, nodes -1):
+    for j in np.arange(-1/2, 1/2):
+
+        u[i] = ((w[j+1//2]/dx**2)*(u[i+1]-u[i]))
+
+counter += dt
+if f <= 0.5 :
+
+IndexError: ..."
+How can NetCDF and OpenDAP be used to download weather data in C++,https://stackoverflow.com/questions/78937391/how-can-netcdf-and-opendap-be-used-to-download-weather-data-in-c,0,"Weather data is easily downloaded in python using siphon and xarray. Here is an example:
+import xarray as xr
+from siphon.catalog import TDSCatalog
+import numpy as np
+import matplotlib.pyplot as plt
+..."
+Search for a specific tuple in a list of tuples sorted by their first element?,https://stackoverflow.com/questions/78937366/search-for-a-specific-tuple-in-a-list-of-tuples-sorted-by-their-first-element,0,"Say I have a list of tuples like this, where the int is the ""id"" for this purpose:
+records_by_id = [(10, 'bubble1'), (5, 'bubble2'), (4, 'bubble3'), (0, 'bubble4'), (3, 'bubble5'),]
+
+... and ..."
+in odoo 16 problem at confirm button in select product in stock_barcode module,https://stackoverflow.com/questions/78937311/in-odoo-16-problem-at-confirm-button-in-select-product-in-stock-barcode-module,0,"I am working in the module stock_barcode
+I try to edit the product_selector on case Confirm buttom
+First I try this code to change the confirm button like this
+    <record id=""..."
+How to break the loop if iteration is between two members of a list,https://stackoverflow.com/questions/78937235/how-to-break-the-loop-if-iteration-is-between-two-members-of-a-list,0,"I have a list like this:
+list1 = [
+    'some',
+    'thing',
+    'is',
+    'here',
+    'dont',
+    'care',
+    'them',
+    'The process completed',
+    'process id: p1',
+    'process id: p2',
+    '..."
+JSONDecodeError: Extra data: line 1 column 2 (char 1) [duplicate],https://stackoverflow.com/questions/78937209/jsondecodeerror-extra-data-line-1-column-2-char-1,0,"I am trying to parse the content of an API response, which is of the type application/json. However, I am getting the following error:
+
+JSONDecodeError: Extra data: line 1 column 2 (char 1)
+
+The API ..."
+hadoop-azure with DefaultAzureCredential,https://stackoverflow.com/questions/78937182/hadoop-azure-with-defaultazurecredential,0,"We develop a spark application and use abfss protocol to consume data from azure storage. Abfss supports various auth methods (like access key, client creds, msi, etc.). However, we would like to use ..."
+React + Django full stack webdev,https://stackoverflow.com/questions/78937161/react-django-full-stack-webdev,0,"recently or maybe like year ago I started to learn everything that I need to know to be fullstack web developer (html,css,js,react..). Now I am trying to build a fullstack website as my first big ..."
+ModuleNotFoundError: No module named 'lib_resume_builder_AIHawk',https://stackoverflow.com/questions/78937157/modulenotfounderror-no-module-named-lib-resume-builder-aihawk,-1,"I'm getting this error when I run my Python script:
+ModuleNotFoundError: No module named 'lib_resume_builder_AIHawk'
+How can I fix this?
+I tried installing the module using pip install ..."
+query with jsonb filed of array of json elements,https://stackoverflow.com/questions/78937146/query-with-jsonb-filed-of-array-of-json-elements,0,"I have a column jsonb that contains an element:
+""element"": [
+{""field"": ""2024-08-01"", ...},
+{""field"": ""2024-08-02"", ...}
+]
+
+I need to create a query ..."
+Scrapy spider duplicates graphql requests for a million times for some reason,https://stackoverflow.com/questions/78937143/scrapy-spider-duplicates-graphql-requests-for-a-million-times-for-some-reason,-1,"Here's the spider:
+from typing import Iterable
+import scrapy
+import json
+from time import sleep
+
+class ButtonSpider(scrapy.Spider):
+name = 'button'
+cookies = {
+    'cookiesAccepted': 'true',
+}
+
+..."
+Print API response when passing variable to JSON,https://stackoverflow.com/questions/78937095/print-api-response-when-passing-variable-to-json,-1,"I want to print the price of the flight but must ask the user for input of ""fromEntityId"" and ""toEntityId"" which are the departure and destination airports. When I add ""CDG&..."
+How can I assign a new column that is equal to the mean of the rows of another dataframe which fall in a range?,https://stackoverflow.com/questions/78937094/how-can-i-assign-a-new-column-that-is-equal-to-the-mean-of-the-rows-of-another-d,1,"I have two Pandas dataframes. Let's call them df1 and df2. This is what df1 looks like with dummy data:
+year,weight
+2023,0.392
+2022,0.382
+2021,0.858
+2020,0.135
+
+And this is df2
+start_year,end_year
+..."
+"Create alias for a parametrized column in the Cosmos DB NoSQL dynamically instead of the name $1,$2,etc",https://stackoverflow.com/questions/78937042/create-alias-for-a-parametrized-column-in-the-cosmos-db-nosql-dynamically-instea,0,"I am writing a sql query where i am getting the key/column name of the SQL query from the user and  when i am writing a parameterized query in python then  i am getting the key name as $1,$2 instead i ..."
+Flask authorization in ldap,https://stackoverflow.com/questions/78937039/flask-authorization-in-ldap,0,"Good afternoon. I need to connect Active Directory (LDAP) authorization to flask. We managed to do this using the flask_ldap3_login library. However, I need access to a specific page to be allowed ..."
+Dealing with apche nifi,https://stackoverflow.com/questions/78936975/dealing-with-apche-nifi,0,guys iam trying to use nifi in order to run python scripts but iam having troubles with handling error the flow i created is to messy but i wanted to be able to stop the flow once it gives 0 as exit ...
+How to optimize my python code time complexity?,https://stackoverflow.com/questions/78936945/how-to-optimize-my-python-code-time-complexity,-1,"I wrote a code for an assignment but it cannot pass because i exceed the allowed time of 300ms. I am currently around 70% over closer to 500ms.
+Essentialy it is a tower of hanoi problem where i put an ..."
+MongoDB-Docker - How to insert item into mongo-express,https://stackoverflow.com/questions/78936933/mongodb-docker-how-to-insert-item-into-mongo-express,0,"I'm trying a simple docker-compose with mongo and mongo-express and trying to insert a document using Python script. The item is successfully added to mongodb, but does not show in mongo-express. ..."
+Calling a function in a class to uppdate a dictionary [closed],https://stackoverflow.com/questions/78936912/calling-a-function-in-a-class-to-uppdate-a-dictionary,-1,"I want to implement the function addDemand(dest, dim) to get a destination and a demand to the destination zone in the class Zone. I expect this function to update the dictionary demand to store each ..."
+Langchain create_react_agent stream stopped on the very first AIMessage and doesn't provide the full answer,https://stackoverflow.com/questions/78936892/langchain-create-react-agent-stream-stopped-on-the-very-first-aimessage-and-does,0,"I have followed the officiel langchain documentation https://js.langchain.com/v0.2/docs/tutorials/sql_qa to create an llm react agent that can query sqlite database:
+`agent_executor = ..."
+"How to Host FastAPI, LangChain, LangServe, and LLaMA.cpp for Local Inference in a Free Hugging Face Space Using Docker? [closed]",https://stackoverflow.com/questions/78936878/how-to-host-fastapi-langchain-langserve-and-llama-cpp-for-local-inference-in,-2,"I'm looking to deploy a FastAPI application that integrates LangChain, LangServe, and LLaMA.cpp (for local model inference) to a free Hugging Face Space using Docker. My goal is to host all these ..."
+Count NaNs in window size and min_periods of rolling Pandas function,https://stackoverflow.com/questions/78936857/count-nans-in-window-size-and-min-periods-of-rolling-pandas-function,0,"We have the following pandas dataframe:
+                   U
+date                
+1990-02-28       NaN
+1990-03-01       NaN
+1990-03-02 -0.068554
+1990-03-05 -0.056425
+1990-03-06 -0.022294
+1990-03-07 -0...."
+error while processing python3-minimal in ubuntu jammy [closed],https://stackoverflow.com/questions/78936833/error-while-processing-python3-minimal-in-ubuntu-jammy,-2,"In Ubuntu jammy, I ran apt install python3 and I got this problem:
+Setting up python3-minimal (3.10.6-1~22.04.1) ...
+Could not find platform independent libraries <prefix>
+Could not find ..."
+Errors while working with QMediaPlayer in PySide6,https://stackoverflow.com/questions/78936830/errors-while-working-with-qmediaplayer-in-pyside6,0,"I've noticed a very strange behaviour during my attempt to show video using PySide6 controls. The problem is that when I play the video and start dragging the window, it starts to freeze, skip frames ..."
+Python: how to run the equivalent of the entry_point `foo.bar:baz` during development?,https://stackoverflow.com/questions/78936816/python-how-to-run-the-equivalent-of-the-entry-point-foo-barbaz-during-develo,0,"I have in my setup.py:
+    entry_points={
+        'console_scripts': [
+            # Error at runtime: module planning_web does not exists 
+            'foobaz = foo.bar:baz',
+        ],
+    },
+so ..."
+How do I fix broken pip installation,https://stackoverflow.com/questions/78936755/how-do-i-fix-broken-pip-installation,0,"I'm not sure what has happened to my Ubuntu server. I just migrated from an old Ununtu 20.04 to 24.04, and most things seem to now by working all right.
+However, if I run pip I get:
+svend@localhost:~$ ..."
+"Not able to grab the image on scene when zoomed and move it around, select multiple QGraphicItems on the image and center the new Image on pyqt5 [closed]",https://stackoverflow.com/questions/78936651/not-able-to-grab-the-image-on-scene-when-zoomed-and-move-it-around-select-multi,-1,"I have a custom QGraphicsView class, inside which I have
+1) a custom QGraphicsScene object
+2) a custom QGraphicsPixmapItem object inside which I have
+a) a custom QGraphicsRectItem
+I am having few ..."
+Comparing 4 variables in one graph using Python,https://stackoverflow.com/questions/78936643/comparing-4-variables-in-one-graph-using-python,0,"My aim is to do a comparison on 4 variables. My df looks like this:
+Date
+Hour
+Idealised
+Measured
+Theoretical
+Loss
+2023-08-24
+0
+0
+0
+0
+0
+2023-08-24
+1
+72.7763
+15.0539
+13.7209
+-1.3329
+2023-08-24
+2
+180...."
+Get rectangles of a continuous laser and turn it into lists [duplicate],https://stackoverflow.com/questions/78936615/get-rectangles-of-a-continuous-laser-and-turn-it-into-lists,-1,"I have a game with a laser that will go until it hits a block. I want to get the rectangles of each laser to do collisions with the player.
+This code doesn't give me a list, it gives me tuples. How ..."
+python: NameError: name 'first' is not defined when I import the whole package,https://stackoverflow.com/questions/78936607/python-nameerror-name-first-is-not-defined-when-i-import-the-whole-package,0,"When I import the whole package, it gives me a NameError. But when I import individual modules and run the same code, it executes properly.
+My structure is:
+
+my_package/directory
+
+__init__.py
+first.py
+..."
+Why are there 2 outputs?,https://stackoverflow.com/questions/78936557/why-are-there-2-outputs,-2,"I am making a Wordle project. The code where it removes unnecessary items in list 'data' sometimes gives one output and sometimes gives another.
+For example, if you set the 'guess' variable to 'AMPLE' ..."
+How to get rid of link preview when tweeting using X V2 api and Tweepy Library?,https://stackoverflow.com/questions/78936556/how-to-get-rid-of-link-preview-when-tweeting-using-x-v2-api-and-tweepy-library,0,"I am currently just trying to make a simple tweet of a link, but whenever I run the script and then go and check the X account, the link preview takes up the whole space of the post and I just want to ..."
+How to write a while loop that iterates through a range until break condition is met [closed],https://stackoverflow.com/questions/78936548/how-to-write-a-while-loop-that-iterates-through-a-range-until-break-condition-is,-2,"I'm trying to recreate deathrolling from WoW.
+Deathrolling in a nutshell:
+
+Two players agree upon an amount of gold to bet.
+The first player types '/roll [x]', where [x] can be any upper range (1000, ..."
+scrape a dropdown list using playwright,https://stackoverflow.com/questions/78936535/scrape-a-dropdown-list-using-playwright,0,"I'm struggling to find a way to click on the ""All"" option in a dropdown list and scrape all the content inside that page. I have come across a few posts but they're a little different from ..."
+Can cython detects if certain C header exists and compile conditionally?,https://stackoverflow.com/questions/78936530/can-cython-detects-if-certain-c-header-exists-and-compile-conditionally,0,"I have a new C function in my library that doesn't exists in previous editions:
+#define MYLIB_VERSION ""dev""
+
+const char *mylib_version(void) { return MYLIB_VERSION; }
+
+Now, I can do this ..."
+mobilev2net previously saved model loading issues,https://stackoverflow.com/questions/78936527/mobilev2net-previously-saved-model-loading-issues,-1,"I'm trying to load my saved MobileV2Net model, but I encounter this error:
+My code:
+full_data_model=keras.models.load_model(filepath='/content/drive/MyDrive/trainedmodelisicskin/full_data.h5', ..."
+"Llava from Ollama Running too late to get the result on my laptop, running on an images to get the Description [closed]",https://stackoverflow.com/questions/78936526/llava-from-ollama-running-too-late-to-get-the-result-on-my-laptop-running-on-an,-1,"There's a problem with Ollama (LLaVA). I thought of making a conversational image recognition chatbot, so I found that LLaVA is the one that can do it. However, the same code on Neural Nine's YouTube ..."
+Check50 not found Flask_login module,https://stackoverflow.com/questions/78936510/check50-not-found-flask-login-module,0,"I have issue with flask_login not found when running CS50 problem set 9 Check50.
+App itself running well, flask has to errors.
+when trying to make Check50 receiving faults because it cant find and ..."
+Deltakernel FFI Error while DuckDb Reading Delta,https://stackoverflow.com/questions/78936509/deltakernel-ffi-error-while-duckdb-reading-delta,0,"Getting an FFI error while trying to read a detla table with Duckdb.  The delta table is on a network connected drive via SMB. I just wrote the delta table from the same machine, just prior, using the ..."
+How does Python determine variables? [duplicate],https://stackoverflow.com/questions/78936497/how-does-python-determine-variables,-4,"I've done a lot of R, compiled Arch Linux, used SQL and so on, but I'm starting into Python now, and I understand some of the advantages of a flexible, dynamic, high level language, but sometimes it ..."
+How to Extract Only Relevant Entities from Product Titles Using Google Cloud NLP API in Python?,https://stackoverflow.com/questions/78936495/how-to-extract-only-relevant-entities-from-product-titles-using-google-cloud-nlp,0,I'm using the Google Cloud Natural Language API in Python to extract brand names and product types from e-commerce product titles. My goal is to filter out unnecessary details like specifications (e.g....
+How do I get the entire list from the database in the bot?,https://stackoverflow.com/questions/78936484/how-do-i-get-the-entire-list-from-the-database-in-the-bot,0,"I want to output a text telegram bot. But in my code, all the data (in my case, words, Dictionary.translate, description, Terms.translate) is output only in the console, and in the telegram it outputs ..."
+Python Subprocess Catch STDIN Input and Wait,https://stackoverflow.com/questions/78936478/python-subprocess-catch-stdin-input-and-wait,0,"I'm creating an online python compiler using Django.
+I have this code for executing the code
+def stream_response():
+            try:
+                process = subprocess.Popen(['python', ..."
+3d array operations in numpy,https://stackoverflow.com/questions/78936473/3d-array-operations-in-numpy,0,"I have two numpy arrays (say A and B). A with shape  - (512,256,256) and B - (512,).  With float values ​​in A - range [-0.5, 0.5] and B - increasing float values ​​in range [0, 220.0] with some ..."
+Handling Malformed JSON Output from Language Model [duplicate],https://stackoverflow.com/questions/78936470/handling-malformed-json-output-from-language-model,-1,"I'm working with a language model (LLM) that generates JSON output, but I'm encountering frequent syntax errors in the generated JSON. The errors typically involve:
+
+Missing colons in key-value pairs
+..."
+Count values greater than row value in all previous rows in each group,https://stackoverflow.com/questions/78936446/count-values-greater-than-row-value-in-all-previous-rows-in-each-group,0,"I want to compare the numerical value of each row of groups with the previous rows of the same group and return the number of previous rows that have a value greater than the current row.
+I know the ..."
+Having problem drawing image in display with PyGame [duplicate],https://stackoverflow.com/questions/78936439/having-problem-drawing-image-in-display-with-pygame,-1,"basically, im very new to python and have recently learned pygame and how to put up a display, draw a square on it, change the squares color and how to make the display close when you hit the X. very ..."
+I want to take output from a function to use in a IF statement in another function,https://stackoverflow.com/questions/78936422/i-want-to-take-output-from-a-function-to-use-in-a-if-statement-in-another-functi,0,"I know what cause is of the problem. When I loop through the if/else statement, the function gets called again and asks the question again. From line 10 - 35.
+I am really unsure how to ask for help ..."
+Downloader with python,https://stackoverflow.com/questions/78936406/downloader-with-python,0,"I took this piece of code from a youtube video as I pasted it and the IDE gives me an error:
+from pytube import YouTube
+
+url = ""https://youtu.be/GNWPFG-Swks""
+
+mi_video = YouTube(url)
+
+..."
+Python Packages for Legendre Series Evaluation [closed],https://stackoverflow.com/questions/78936405/python-packages-for-legendre-series-evaluation,0,"I am creating visuals of the Hydrogen atom in Python.
+I have been using scipy's lvmp package to use as the evaluator of the legendre polynomials. This package uses the rising factorial formulation of ..."
+How to ignore `ModuleNotFoundError` when using mypy for github actions?,https://stackoverflow.com/questions/78936404/how-to-ignore-modulenotfounderror-when-using-mypy-for-github-actions,1,"I’m integrating mypy into my GitHub Actions workflow to check only the changed files in my django project:
+name: Pull Request Backend Lint and Format
+
+on: [push, pull_request]
+
+jobs:
+  backend-lint-..."
+How can I get the debt of Germany using the worldbank API?,https://stackoverflow.com/questions/78936400/how-can-i-get-the-debt-of-germany-using-the-worldbank-api,-1,"I tried this, but I only gives a value from 1990:
+import requests
+
+def get_world_bank_data(indicator_code):
+    url = f""https://api.worldbank.org/v2/country/DEU/indicator/{indicator_code}?format=..."
+Data classification doesn't work with BERT model,https://stackoverflow.com/questions/78936387/data-classification-doesnt-work-with-bert-model,0,"I need to train model with input CSV, that has error message and error classification. Then when tested with just error message, it should automatically classify.
+I've used BERT model and this is the ..."
+Python Requests Module - JSON Decode Error [closed],https://stackoverflow.com/questions/78936375/python-requests-module-json-decode-error,-2,"I'm using the Python requests module to call an API endpoint but seeing different results depending on the authentication requirement of the API endpoint. Note sure if relevant, but the API endpoint ..."
+How to scrape Etsy Product Reviews,https://stackoverflow.com/questions/78936353/how-to-scrape-etsy-product-reviews,-2,I am unable to switch the review page on Etsy product reviews. I am only able to scrape the first page. I tried using the code below to scrap the Etsy product reviews but i was only able to scrape the ...
+How can I properly utilize seaborn with matplotlib,https://stackoverflow.com/questions/78936335/how-can-i-properly-utilize-seaborn-with-matplotlib,0,"I get an error code file not found when i try to use ""seaborn on jupyter notebook.
+Here is my code
+%matplotlib inline
+import matplotlib.pyplot as plt
+import seaborn as sns
+plt.style.use(""..."
+Extract strings from lists in df column with null values,https://stackoverflow.com/questions/78936323/extract-strings-from-lists-in-df-column-with-null-values,0,"I'm attempting to extract text from lists in a df column. Trying to use apply on a slice of dataframe which is not null but receiving TypeError: can only join an iterable.
+import pandas as pd
+
+data = {..."
+How can i stop this jitter from the camera in webots?,https://stackoverflow.com/questions/78936313/how-can-i-stop-this-jitter-from-the-camera-in-webots,0,"I'm using the Surveyor SRV-1 robot in Webots to navigate a custom map I've created. Everything runs smoothly at lower speeds, but as soon as I increase the speed to more than 0.2 m/s, I start ..."
+Join one dataframe to multiple dataframes in PySpark,https://stackoverflow.com/questions/78936303/join-one-dataframe-to-multiple-dataframes-in-pyspark,0,"I currently have a dataframe that I have to join with multiple equal dataframes. For instance,
+values_df:       codes_1_df:         codes_2_df:         codes_n_df:
+| ID | value |   | code | cvalue |   ..."
+"Flux.1 Schnell image generator issue, GPU resources getting exhausted after 1 prompt",https://stackoverflow.com/questions/78936279/flux-1-schnell-image-generator-issue-gpu-resources-getting-exhausted-after-1-pr,0,"So, I tried to train a prompt based image generation model using FLUX.1-schnell. I used Lightning AI Studio (an alternate to Google Colab), that helped me to access to L40 GPU, that came with 48gb ..."
+DuckDB: importing a Polars dataframe containing an `Enum` column turns it into a `VARCHAR` column in DuckDB?,https://stackoverflow.com/questions/78936276/duckdb-importing-a-polars-dataframe-containing-an-enum-column-turns-it-into-a,5,"import polars as pl
+
+values = [""a"", ""b"", ""c""]
+df = pl.DataFrame(pl.Series(""x"", values, dtype=pl.Enum(values)))
+print(df)
+
+shape: (3, 1)
+┌──────┐
+│ x    │
+│ ---  ..."
+"How to create a ""Select All"" feature in a checkbox group?",https://stackoverflow.com/questions/78936264/how-to-create-a-select-all-feature-in-a-checkbox-group,0,I'm using Shiny for Python and I've been trying to include a checkbox in the checkbox group that will select all / deselect all the items in the group. I've tried a lot of different codes and can't ...
+Python regularly failing to find files and directories on windows 11,https://stackoverflow.com/questions/78936215/python-regularly-failing-to-find-files-and-directories-on-windows-11,0,"I am currently attempting to build a wheel for a python library that I couldn't install directly on windows, though similar issues have been plaguing me since installing Python and getting PATH or ..."
+"Selenium is not fill email line/Python. Message: Move target (-34, -417) is out of bounds of viewport dimensions (1908, 989)",https://stackoverflow.com/questions/78936190/selenium-is-not-fill-email-line-python-message-move-target-34-417-is-out,0,"Why i have this trouble?
+Message: Move target (-34, -417) is out of bounds of viewport dimensions (1908, 989)
+Stacktrace:
+RemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8
+..."
+Grab the current Safari URL using Python in Typinator,https://stackoverflow.com/questions/78936166/grab-the-current-safari-url-using-python-in-typinator,-2,"I use several expansions in Typinator for various tasks, and one of them I need to copy the current active window URL from Safari. I normally do this manually, but I'm trying to figure out a way to ..."
+Is there no autocompletion for interop objects in VS Code?,https://stackoverflow.com/questions/78936155/is-there-no-autocompletion-for-interop-objects-in-vs-code,0,"Using this code:
+import win32com.client as win32
+xl_ens = win32.gencache.EnsureDispatch('Excel.Application')
+
+When I type xl_ens., I do not get auto-completion for the Excel properties and methods, ..."
+Why does simpleaudio cause my program to exit after playing a sound?,https://stackoverflow.com/questions/78936125/why-does-simpleaudio-cause-my-program-to-exit-after-playing-a-sound,0,"I am making a music themed game in pygame.  This was an idea from an upwork job post, which I'm using as inspiration to learn python.
+I was stuck finding a way to play musical notes.  AI suggested ..."
+Windows 11 Home - Unable to run django-admin,https://stackoverflow.com/questions/78936120/windows-11-home-unable-to-run-django-admin,-3,"I have looked through several post regarding either:
+django-admin : The term 'django-admin' is not recognized
+or
+[Errno 2] No such file or directory
+I am trying to run django-admin startproject...and ..."
+VS Code Python unittest not finding tests to run,https://stackoverflow.com/questions/78936118/vs-code-python-unittest-not-finding-tests-to-run,0,"VS Code latest version.
+I have a file test_whatever.py
+import unittest   
+class Test_TestWhatever(unittest.TestCase):
+
+    def test_whatever(self):
+        self.assertEqual(1, 1)
+
+if __name__= '..."
+SQLModel relationship without being a table?,https://stackoverflow.com/questions/78936112/sqlmodel-relationship-without-being-a-table,0,"I am new to SQLModel & SQLAlchemy and trying to get my head around how I can solve this:
+Tables:
+
+message
+conversation
+
+Each Conversation can have a list of messages (one-to-many) and each message ..."
+timed out while waiting for program to exit problem,https://stackoverflow.com/questions/78936102/timed-out-while-waiting-for-program-to-exit-problem,-5,"My code prompts this when I checked 50.
+Everything is going well in the code, just check 50 prompt. Just tell me what it shows in the picture.
+import random
+import sys
+
+def main():
+    level = ..."
+Why is my Python list comprehension returning unexpected results? [closed],https://stackoverflow.com/questions/78936101/why-is-my-python-list-comprehension-returning-unexpected-results,-2,"I'm trying to filter out even numbers from a list of integers using a list comprehension in Python. However, the output includes all the original elements rather than just the odd ones. I'm not sure ..."
+Trying to run a python script that uses the 'requests' module in on windows 10,https://stackoverflow.com/questions/78936082/trying-to-run-a-python-script-that-uses-the-requests-module-in-on-windows-10,0,"I'm having the following error produced every time I try to run the grabber.py script. Any help would be greatly appreciated.
+        Traceback (most recent call last):
+      File ""C:\Users\dolgi\..."
+Getting undeterministic results in simple RNN,https://stackoverflow.com/questions/78936049/getting-undeterministic-results-in-simple-rnn,0,"I have been working on simple rnn. I get different results for the same data and same model but different order of columns in train data.First I run the code for train data with columns A,B and C. in ..."
+How to solve difficult error when downgrading qiskit version?,https://stackoverflow.com/questions/78936035/how-to-solve-difficult-error-when-downgrading-qiskit-version,0,"I have qiskit 1.2.0 installed currently (and it seems to work perfectly fine).  But I want to use qiskit version 0.29.  When I try pip install qiskit==0.29, it results in a scary cython syntax error.
+..."
+Python code for finding a minimal pair of words [closed],https://stackoverflow.com/questions/78936029/python-code-for-finding-a-minimal-pair-of-words,-5,"I have a list of words, say, words = [""at"", ""bat"", ""cat"", ""pneumonomicroscopicsilicovolcanoconiosis""]. I need a function that will find pairs of words that only ..."
+Increase security when sharing images between two parties [closed],https://stackoverflow.com/questions/78936010/increase-security-when-sharing-images-between-two-parties,0,"I'm building a system that have two types of users: doctor and patient.
+Just to give context. A doctor is allowed to save medical records (images) for any patient, and this images are going to be ..."
+Django: Use widgets in Form's init method?,https://stackoverflow.com/questions/78935980/django-use-widgets-in-forms-init-method,1,"Why the widget for the field defined as a class attribute is working, but it is not for the instance attribute inside the __init__ method? (I need the init method)
+class CropForm(forms.ModelForm):
+
+   ..."
+How do i get jinja2 to recognize the placeholders ( eg. '{{var}}' ) in a html file,https://stackoverflow.com/questions/78935969/how-do-i-get-jinja2-to-recognize-the-placeholders-eg-var-in-a-html-fi,-1,"I've chosen to make a flight management system program, along with a few other students. My part is to ensure, that for some input key:value pairs in a dictionary, the values should be displayed in ..."
+"Face_recognition python: Using dlib gives code: 98, reason: invalid device function",https://stackoverflow.com/questions/78935963/face-recognition-python-using-dlib-gives-code-98-reason-invalid-device-funct,0,"I am trying to run face_recognition on my GeForce GT 730 GPU, 11.3 cudatoolkit, 8.2.1 cuDNN, and 475.14 driver on windows 10 (my device compute capability is 3.5). I am getting the error message
+Error ..."
+Ultrasonic Sensor not receiving echo,https://stackoverflow.com/questions/78935952/ultrasonic-sensor-not-receiving-echo,0,"I've tried quite a few solutions. I found them online and no rearranging of the code is doing it. I'm simply trying to see if the sensor reads at all, and I keep being thrown this:
+warnings.warn(..."
+How does ctypes.py_object works?,https://stackoverflow.com/questions/78935859/how-does-ctypes-py-object-works,0,I have been studying DSA and don't understand how ctypes.py_object works. As of my knowledge it works on concept of pointers to create an array of pointers that will store memory addresses for values ...
+Linear transformation in Numpy [closed],https://stackoverflow.com/questions/78935854/linear-transformation-in-numpy,-1,"I have a 3D array with shape (X,Y,Z). How in Numpy I can linearly transform it, like this:
+desired result S1(X,Y,Z) = S(aX, bY, Z+ C0), where a,b and C0 are predefined?
+Indices in Numpy are integers ..."
+Python comprehension with different number of elements [duplicate],https://stackoverflow.com/questions/78935848/python-comprehension-with-different-number-of-elements,-3,"The general problem
+I have a case where I'm generating an element comprehension with a different cardinality to the input source. This cardinality should not be a multiple of the original (data-driven)..."
+Periodically analyse images instead of videos for object detection?,https://stackoverflow.com/questions/78935846/periodically-analyse-images-instead-of-videos-for-object-detection,0,"I would like to create a function that checks if a certain condition (namely the successful detection of a known object using a webcam) is satisfied before carrying on the execution of the algorithm.
+..."
+Docker SDK for Python - `mode` field in output of `Container.get_archive(path)` returning unexpected value when `path` is a folder,https://stackoverflow.com/questions/78935838/docker-sdk-for-python-mode-field-in-output-of-container-get-archivepath,0,"In the Docker SDK for Python, Container.get_archive(path) returns stat information of path in a dictionary.
+However, when path is a folder, the  mode of the stat dictionary is set to 2147484141, which ..."
+How to implement left-to-right or right-to-left swipe in Flet Python?,https://stackoverflow.com/questions/78935823/how-to-implement-left-to-right-or-right-to-left-swipe-in-flet-python,1,"I was Working Students Attendance system in Flet,
+It very basic,
+the list shows sort by name,
+if we want mark, just swipe L-R,
+If mistakenly swiped, then long press open student details page then ..."
+PyInstaller unable to find data file (db.sqlite) during packaging in `.spec` file,https://stackoverflow.com/questions/78935806/pyinstaller-unable-to-find-data-file-db-sqlite-during-packaging-in-spec-fil,0,"I'm working on packaging a Python project using PyInstaller. My project includes a db.sqlite file, which I need to include in the final executable. I’m using a .spec file to package the application, ..."
+3rd line for loop statement how and what exactly (i) iterating and range(10000) applies to which variable? [duplicate],https://stackoverflow.com/questions/78935766/3rd-line-for-loop-statement-how-and-what-exactly-i-iterating-and-range10000,-3,"n = list()
+count = 0
+for i in range(100000):#what i is doing in the code and range means len of n  
+  q = input('enter:')
+  if q == 'done':
+    break
+  try:  
+    v = float(q)
+    count = count+1
+    ..."
+Reduce memory usage in a PyTorch-based function with large batch processing?,https://stackoverflow.com/questions/78935747/reduce-memory-usage-in-a-pytorch-based-function-with-large-batch-processing,0,"I'm working on a classification problem using PyTorch, and I have a function that calculates a quantile of maximum values from multiple subsamples of data. The dataset is large, and the function is ..."
+"""TypeError: Cannot read properties of undefined"" using clientside_callback in dash python",https://stackoverflow.com/questions/78935745/typeerror-cannot-read-properties-of-undefined-using-clientside-callback-in-da,0,I am using dash and manitine components to create a website. To keep control over packages and running the website I am using poetry. The website should have a clientside_callback for when clicking a ...
+how to set accuracy within mizani.labels.percent(),https://stackoverflow.com/questions/78935739/how-to-set-accuracy-within-mizani-labels-percent,1,"Can I use mizani.label.percent or another mizani formatter to present the geom_label with one decimal place? The code below works but rounds to an integer.
+import polars as pl
+from plotnine import * 
+..."
+Quart is unable to pass request object to CloudAdapter() in microsoft bot builder,https://stackoverflow.com/questions/78935720/quart-is-unable-to-pass-request-object-to-cloudadapter-in-microsoft-bot-builde,0,"I am trying to call an async function that accepts a request of type aiohttp.web.request, this is being called in one of my views using quart as the framework, the requests come as co-routines that ..."
+Apply Scaler() on each ID on polars dataframe,https://stackoverflow.com/questions/78935707/apply-scaler-on-each-id-on-polars-dataframe,1,"I have a dataset with multiple columns and an ID column. Each ID can have different magnitudes and varying sizes across these columns. I want to normalize the columns for each ID separately.
+import ..."
+"How to cluster a list consisting of single words into specific categories; such as Gustatory, Auditory, Visual etc",https://stackoverflow.com/questions/78935687/how-to-cluster-a-list-consisting-of-single-words-into-specific-categories-such,-1,I am working on a research project where I attempt to see whether response words (single word) for a given cue word (single word) fall within the same category roughly if I were to group this whole ...
+'asyncpg.pgproto.pgproto.UUID' object has no attribute 'replace',https://stackoverflow.com/questions/78935686/asyncpg-pgproto-pgproto-uuid-object-has-no-attribute-replace,0,"I'm building a fastAPI application. I have a Psotgres DB where i write and read data from. I'm using SQLAlchemy to interact with my Postgres Database. Here is my model:
+import uuid
+from db.database ..."
+Problem with calling Python module from C# code via Python.Net,https://stackoverflow.com/questions/78935682/problem-with-calling-python-module-from-c-sharp-code-via-python-net,0,"I am trying to integrate C# and Python codes by calling Python.Net from C# code (Net6.0 Visual Studio 2022, Windows10 platform). I added pythonnet package from Nuggets to my project, identified the ..."
+SQLAlchemy w/ Flask - Smart/safe to expunge_all() on request?,https://stackoverflow.com/questions/78935668/sqlalchemy-w-flask-smart-safe-to-expunge-all-on-request,0,"I have a Flask web app, using Flask-SQLAlchemy.For the most part, it just does database reads and serves content to users.
+The database is defined on the app module like this:
+from flask_sqlalchemy ..."
+Python and MySql connector [closed],https://stackoverflow.com/questions/78935666/python-and-mysql-connector,-1,"I Installed anaconda,xammp server and MySql connector on my windows operating system. Am trying to connect the python that is in anaconda to the xampp server.
+I opened my command prompt and typed pip ..."
+captcha image solver in Python [closed],https://stackoverflow.com/questions/78935661/captcha-image-solver-in-python,-3,"using this quote I am unable to solve this.. I have tried
+enter image description here
+[[enter image description here](https://i.sstatic.net/M6T46Iop.jpg)](https://i.sstatic.net/lGmRDoS9.jpg)
+the ..."
+"ValueError that 'rope_scaling' must be a dictionary with two fields, 'type' and 'factor' Llama-3.1",https://stackoverflow.com/questions/78935654/valueerror-that-rope-scaling-must-be-a-dictionary-with-two-fields-type-and,0,"When running Hermes-3-Llama-3.1-70B model, the job fails with the following output:
+ValueError                                Traceback (most recent call last)
+Cell In[16], line 12
+      9 tokenizer = ..."
+Python re and regex failing after Unicode above U+D7FB in searched string [duplicate],https://stackoverflow.com/questions/78935588/python-re-and-regex-failing-after-unicode-above-ud7fb-in-searched-string,0,"I tried some Python regular expression matches against Unicode, and discovered that they don't work as I'd expect, either in re or regex.
+For example, r""\w"" does not match strings containing ..."
+Jupyter Notebook in VS Code Keeps Running Without Completing Execution,https://stackoverflow.com/questions/78935584/jupyter-notebook-in-vs-code-keeps-running-without-completing-execution,0,"I'm using Visual Studio Code with Python installed, and I'm encountering an issue where Jupyter notebooks are not running properly.
+When I execute a cell in the Jupyter notebook in VS Code, it starts ..."
+Change some input-fields in a PDF?,https://stackoverflow.com/questions/78935532/change-some-input-fields-in-a-pdf,0,"i try to change some input-fields in a pdf using the following code:
+from fillpdf import fillpdfs
+
+erg = fillpdfs.get_form_fields(""template.pdf"")
+
+erg[""þÿ\x00f\x002\x00_\x000\x001\x00[\..."
+"I am getting a ValueError when trying to check if two lists are the same, why is this and how can I fix this",https://stackoverflow.com/questions/78935529/i-am-getting-a-valueerror-when-trying-to-check-if-two-lists-are-the-same-why-is,0,"I am using pickle to save something to a file, and am trying to check if the thing loaded back in is the exact same as the thing that was saved to the file, for later in the program and am receiving ..."
+I'm fine-tuning a small GPT model but I can't get it to use my GPU,https://stackoverflow.com/questions/78935514/im-fine-tuning-a-small-gpt-model-but-i-cant-get-it-to-use-my-gpu,0,"I’m currently fine-tuning a GPT-2 distilled model with approximately 130M parameters on 8 years' worth of my WhatsApp chats. I’ve prepared a labeled dataset consisting of around 1 million sequences, ..."
+Python: Loops do not execute with DictReader object [duplicate],https://stackoverflow.com/questions/78935503/python-loops-do-not-execute-with-dictreader-object,-1,"my problem is that the for-loops in my functions do not start. The calculate_avg_age() function is an exception- its included loop works.
+For the majority() function I get an error:
+max() arg is an ..."
+Improving Speaker Diarization Accuracy with Pyannote: Misidentifying 1-on-1 Conversations as Multi-Speaker,https://stackoverflow.com/questions/78935502/improving-speaker-diarization-accuracy-with-pyannote-misidentifying-1-on-1-conv,-1,"I'm working on speaker diarization, but I'm encountering issues with accuracy when using pyannote.
+In a scenario where there is a one-on-one conversation, pyannote recognizes it as a four-person ..."
+Combining threading and asyncio to process audio stream through a WebSocket connection,https://stackoverflow.com/questions/78935498/combining-threading-and-asyncio-to-process-audio-stream-through-a-websocket-conn,0,"Overview
+I have a server which has an an open WebSocket connection with one client application. This client application (android app) can send live microphone audio data. What the server has to do in ..."
+How to combine 2 linux executables into 1 [duplicate],https://stackoverflow.com/questions/78935494/how-to-combine-2-linux-executables-into-1,-2,"So, im trying to make a application in python and use pyinstaller to make it into a executable. But I also have an application that I need with it. Is there a way to make there 2 executables into 1, ..."
+ffmpeg filter_complex works on mac but not on windows,https://stackoverflow.com/questions/78935485/ffmpeg-filter-complex-works-on-mac-but-not-on-windows,-1,"Code in python:
+command_str_concat = f'ffmpeg -i file1.mp4 -i file2.mp4 -filter_complex ""concat=n=2:v=1:a=1"" -vn -y myfinal.mp4'
+command_concat = shlex.split(command_str_concat, posix=False)
+..."
+Playwright - scraping eBay deals,https://stackoverflow.com/questions/78935481/playwright-scraping-ebay-deals,0,"from playwright.sync_api import Playwright, sync_playwright
+
+with sync_playwright() as playwright:
+    chromium = playwright.chromium
+    browser = chromium.launch()
+    context = browser.new_context()..."
+Disk i/o error database problem with python [closed],https://stackoverflow.com/questions/78935472/disk-i-o-error-database-problem-with-python,-4,"Basically i have the database created locally (i can access it ffrom the browser) however when i call an endpoint in python to perform a get into it, it throws this error:
+The above exception was the ..."
+NFC Scanner requires replugging to work on Raspberry Pi 4 [closed],https://stackoverflow.com/questions/78935466/nfc-scanner-requires-replugging-to-work-on-raspberry-pi-4,-2,"I'm encountering a strange issue with my NFC Scanner when connected to a Raspberry Pi 4 via USB. The scanner works fine when I run my code under Windows, but on Raspberry Pi OS (Debian Bookworm), it ..."
+How can I recover the object detected by yolov8 in my code?,https://stackoverflow.com/questions/78935458/how-can-i-recover-the-object-detected-by-yolov8-in-my-code,0,"I need to retrieve the objects detected by my yolo model but I haven't found any command to do so.
+I work with this code:
+from ultralytics import YOLO
+
+model = YOLO(""/media/aceryohan/SSD-448Gb/..."
+(BPE)tokenizer not working for tokens with common beginning,https://stackoverflow.com/questions/78935444/bpetokenizer-not-working-for-tokens-with-common-beginning,0,"Consider the code
+from tokenizers import Tokenizer, pre_tokenizers
+from tokenizers.models import BPE
+
+tokens = ['A', 'A+', '+']
+
+tokenizer = Tokenizer(BPE(unk_token=""[UNK]"",
+                 ..."
+Game Screen Overlay in Python using Pycharm [closed],https://stackoverflow.com/questions/78935394/game-screen-overlay-in-python-using-pycharm,-2,"I'm not sure how to make an overlay screen, as in a mini screen that shows when the user hovers of a characters name so that it shows some stats. I tried copying what i did to make the main screen and ..."
+not able to extract specific data in sqlite table using flask python application,https://stackoverflow.com/questions/78935381/not-able-to-extract-specific-data-in-sqlite-table-using-flask-python-application,0,"I am developing a flask app where I have a table named ""TDS"" inside sqlite database.
+
+I want to access row wise specific data for example in column ""Income_under_salary"" in first ..."
+Counter that starts over for a specific variable,https://stackoverflow.com/questions/78935373/counter-that-starts-over-for-a-specific-variable,0,I'm writing a script to identify clusters of data in one dimension (depth) defined by a user specified gap in depth for multiple oil wells. The script looks at the difference in depth (d_dep) and then ...
+Selenium proxy connection issue,https://stackoverflow.com/questions/78935363/selenium-proxy-connection-issue,0,"I have been trying to connect to proxy for the past few times using proxy please help
+from selenium import webdriver
+import time
+from selenium.webdriver.chrome.options import Options
+
+#################..."
+Build filter combinations with a dataframe,https://stackoverflow.com/questions/78935287/build-filter-combinations-with-a-dataframe,0,I am trying to build a Monte Carlo simulation over different filters to filter a dataframe and then compute returns with the filtered dataframe. Therefore I have a large dataframe (appr. 3000 columns) ...
+Problem with React Form and passing information to backend in Django,https://stackoverflow.com/questions/78935248/problem-with-react-form-and-passing-information-to-backend-in-django,0,"I have a view in Django that is responsible for booking a user a training session with a personal trainer. This view wants a full Trainer object, but the react form only passes the trainer ID to ..."
+Need an explanation for a web scraping lambda function in Python,https://stackoverflow.com/questions/78935219/need-an-explanation-for-a-web-scraping-lambda-function-in-python,0,"I'm doing Web Scraping in Python and I've found this :
+products = soup.find_all('li')
+products_list = []
+for product in products:
+    name = product.h2.string
+    price = product.find('p', string=..."
+How to deploy a Flask Application On Bluehost?,https://stackoverflow.com/questions/78935210/how-to-deploy-a-flask-application-on-bluehost,0,"Is there a way to deploy my Flask application on Bluehost shared hosting? I have tried following the tutorials provided by Bluehost, but I keep encountering issues related to Apache configuration and ..."
+How to connect python script for recommendation be connected to express backend and get routes to get apis for the frontend [closed],https://stackoverflow.com/questions/78935189/how-to-connect-python-script-for-recommendation-be-connected-to-express-backend,0,"I have been struggling trying several ways to connect my expressjs , mongodb backend to the python scripts of recommendation model . How to do it , how to get them to routes and access them via api ..."
+One colorbar for several contour plots,https://stackoverflow.com/questions/78935187/one-colorbar-for-several-contour-plots,1,"I generated three plots using:
+fig, ax = plt.subplots(1,3,figsize=(12,4))
+X,Y=np.meshgrid(lon,lat)
+
+P1=ax[0].contourf(X,Y,A) 
+ax[0].set_title('Plot A')
+P2=ax[1].contourf(X,Y,B)
+ax[1].set_title('Plot B'..."
+Carla No module named 'carla.libcarla',https://stackoverflow.com/questions/78935164/carla-no-module-named-carla-libcarla,0,Ive been trying to do some stuff with carla. When I tried opening generate_traffic.py in a cmd to create some traffic i get an error: No module named 'carla.libcarla'. I already looked through all ...
+Why does the Python .sort() not work when appended directly to list? [duplicate],https://stackoverflow.com/questions/78935124/why-does-the-python-sort-not-work-when-appended-directly-to-list,-1,"When I run the sort() method in example 1, it works fine:
+numlist = [143,48,40]
+numlist.sort()
+
+However in example 2:
+numlist = [143,48,40].sort()
+
+it assigns a None value to the numList variable. Why ..."
+I cannot load trained model in Google Colab TPU - error caused by batch_shape,https://stackoverflow.com/questions/78935085/i-cannot-load-trained-model-in-google-colab-tpu-error-caused-by-batch-shape,0,"I am using notebooks in Kaggle and Google Colab. After I trained my model in Kaggle (GPU P100) and tried to load it in Colab (TPU) I received this error:
+TypeError: Error when deserializing class '..."
+Python giving me recursion error while using hugging face transformer pipeline,https://stackoverflow.com/questions/78935049/python-giving-me-recursion-error-while-using-hugging-face-transformer-pipeline,0,"I am currently working on a project that uses the summarization pipeline provided by the hugging face transformers library. However, when I run the summarization function Python gives me an error:
+..."
+Get wacom tablet data in python,https://stackoverflow.com/questions/78935039/get-wacom-tablet-data-in-python,0,"I am currently developing a drawing interface that interacts with an XYZ machine (plotter) that uses a Wacom tablet. X and Y are related to pen coordinates on the screen, and Z should be the pen ..."
+Gradient for array elements being more than one element apart,https://stackoverflow.com/questions/78934935/gradient-for-array-elements-being-more-than-one-element-apart,1,"Is it possible to take the gradient between two points that are more than one element apart?
+A simple array:
+f = np.array([4,5,8,1,5,3,2,5])
+
+I want to program the following:
+
+At boundaries: One-sides ..."
+FastAPI - passing an input to a LangGraph model and getting an output in JSON/HTML,https://stackoverflow.com/questions/78934919/fastapi-passing-an-input-to-a-langgraph-model-and-getting-an-output-in-json-ht,0,"I have the following LangGraph code. I can't seem to integrate it with FastAPI correctly. I want to send to the graph an input which is defined in the inp function, pass it through a langgraph ..."
+Open AI integration,https://stackoverflow.com/questions/78934914/open-ai-integration,0,"I have basic OPEN AI account and I am developing a POC where the goal is to get data from JIRA and then analyze it using OPEN AI. There is no restriction on what to analyze and how much to analyze, I ..."
+How do I formalize a repeated relationship among disjoint groups of classes in python?,https://stackoverflow.com/questions/78934877/how-do-i-formalize-a-repeated-relationship-among-disjoint-groups-of-classes-in-p,0,"I have Python code that has the following shape to it:
+from dataclasses import dataclass
+@dataclass
+class Foo_Data:
+    foo: int
+class Foo_Processor:
+    def process(self, data: Foo_Data): ...
+..."
+Web Scrapping Logical issue help (python),https://stackoverflow.com/questions/78934858/web-scrapping-logical-issue-help-python,-1,"I'm working on a web scraping project to extract MCQs and answers from Indiabix.  I've already created CSV files with links to all the topics.
+
+The problem I'm facing is that each topic page contains ..."
+How to convert javascript (string) to dictionary,https://stackoverflow.com/questions/78934856/how-to-convert-javascript-string-to-dictionary,0,"import re
+import json
+json_pattern = re.search(r'residentSubmitDetails:\s*({.*?})\s*\}', js_code, re.DOTALL)
+print(json_pattern)
+if json_pattern:
+    json_str = json_pattern.group(1)
+    json_obj = ..."
+How to property handle request with aiohttp,https://stackoverflow.com/questions/78934852/how-to-property-handle-request-with-aiohttp,0,"I use aiohttp and send a request like this:
+async with session.get(url=url, headers=headers) as res:
+    src = await res.text()
+
+After that, I handle html code with BeautifulSoup4.
+Is it necessary to ..."
+"Connection to server at ""localhost"" (::1), port 5432 failed when using a streamlit app",https://stackoverflow.com/questions/78934843/connection-to-server-at-localhost-1-port-5432-failed-when-using-a-streaml,0,"I have an issue when trying to run my streamlit app (that uses a postgres database) in Docker. When accessing the app in the browser (http://localhost:8501/), it throws this error :
+
+OperationalError: ..."
+How to have fixed positions in kivy?,https://stackoverflow.com/questions/78934834/how-to-have-fixed-positions-in-kivy,0,"im trying to make a gui with kivy and keep positions fixed so for example when i resize the window i want to like see full text not half of it, heres my code:
+<MyLayout>:
+    FloatLayout:
+       ..."
+I am getting NaN values when trying to print using - print(df) in Jyupter,https://stackoverflow.com/questions/78934822/i-am-getting-nan-values-when-trying-to-print-using-printdf-in-jyupter,-1,"minimal example:
+import pandas as pd
+data = {
+    'Company': ['Apple', None, None, 'Tesla', None, None, 'Microsoft', None, None],
+    'Year': [21, 22, 23, 21, 22, 23, 21, 22, 23],
+    'Total Revenue': ..."
+How retrieve correct orientation of part from Step file with OpenCASCADE,https://stackoverflow.com/questions/78934782/how-retrieve-correct-orientation-of-part-from-step-file-with-opencascade,0,"I'm trying to retrieve correct position (translation in xyz), orientation (rotation in xyz, Euler angles), and colors of parts from a Step file by using a python wrapper of OpenCASCADE.
+I tried ..."
+I have imported an existing ipynb file into an Azure Python notebook . There are errors in importing libraries while running the computer,https://stackoverflow.com/questions/78934759/i-have-imported-an-existing-ipynb-file-into-an-azure-python-notebook-there-are,0,"I have imported an existing ipynb file into an Azure notebook. And trying to run using Azure computers.
+In the libraries import section, I get the errors those given below:
+from sksurv.linear_model ..."
+Get error in transformers.Trainer. TypeError: Object of type set is not JSON serializable,https://stackoverflow.com/questions/78934737/get-error-in-transformers-trainer-typeerror-object-of-type-set-is-not-json-ser,0,"I want to fine-tune the model ""FacebookAI/roberta-large"" on disaster-tweets dataset. I have problem in transformers.Trainer and I got this error:
+TypeError                                 ..."
+"BERTopic RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cpu and cuda:0, details in the post",https://stackoverflow.com/questions/78934716/bertopic-runtimeerror-expected-all-tensors-to-be-on-the-same-device-but-found,0,"I am trying to use the BERTopic library with a custom text generation model using the transformers library. However, I am getting this RuntimeError. I have tried to specify the device as 0 (GPU) in ..."
+Python imaplib b'LOGIN failed.',https://stackoverflow.com/questions/78934699/python-imaplib-blogin-failed,0,"My Python imaplib library code has recently stopped working for me.
+This is the code I use:
+import imaplib
+imap = imaplib.IMAP4_SSL(""outlook.office365.com"")
+imap.login(""email@hotmail...."
+Why doesn't fillna work as expected in pandas version 2.1.4?,https://stackoverflow.com/questions/78934698/why-doesnt-fillna-work-as-expected-in-pandas-version-2-1-4,0,"This is my DataFrame:
+import pandas as pd 
+df = pd.DataFrame(
+    {
+        'a': ['long', 'long', 'short', 'long', 'short', 'short', 'short'],
+        'b': [1, -1, 1, 1, -1, -1, 1],
+    }
+)
+
+Expected ..."
+Which CPU scheduling algorithm is a multiprocessing module of Python?,https://stackoverflow.com/questions/78934690/which-cpu-scheduling-algorithm-is-a-multiprocessing-module-of-python,0,"I am working on a project that uses cores and threads of a CPU to execute multiple processes.
+My project is to create a new CPU scheduling algorithm. For that I need to create a Python file to show ..."
+How to use the TDS sensor with Raspberry Pi 5 [closed],https://stackoverflow.com/questions/78934687/how-to-use-the-tds-sensor-with-raspberry-pi-5,0,"I am working on a project which requires the TDS sensor to verify the purity of water, so can you please tell me how to use it with a Raspberry Pi 5, I don't know how to use it because there are no ..."
+How to properly reinitialise/Reset model in tensorflow,https://stackoverflow.com/questions/78934657/how-to-properly-reinitialise-reset-model-in-tensorflow,0,"My tensorflow code involves running kfold validation training on participants neural data, with the model predicting a class out of 4 possible classes after partcipants were shown at random a cue ..."
+Running vs code for Python [closed],https://stackoverflow.com/questions/78934619/running-vs-code-for-python,0,"When I run a simple Python code in Visual Studio Code, the terminal is once shown and then closed very rapidly. Even when I open the terminal and run the program, the terminal is closed very fast ..."
+Undetected ChromeDriver still activates captcha when used in Selenium,https://stackoverflow.com/questions/78934602/undetected-chromedriver-still-activates-captcha-when-used-in-selenium,0,"Basically, I am trying to login to Snapchat but it triggers the captcha every time, so to try to avoid this I read about undetected chrome driver here: https://github.com/ultrafunkamsterdam/undetected-..."
+"Can Any one explain this all and any in python, and why it is working like this? [closed]",https://stackoverflow.com/questions/78934593/can-any-one-explain-this-all-and-any-in-python-and-why-it-is-working-like-this,-3,"*#This is a hackerRank code *
+n=int(input()) #5
+arr=map(int,input().split()) #12 9 61 5 14
+
+print(any([str(j)==str(j)[-1::-1] for j in arr]))
+print(all([i>0 for i in arr]))
+print(any([str(j)==str(j)..."
+Python JSON requests [closed],https://stackoverflow.com/questions/78934592/python-json-requests,-4,"I have tried different things so far, but Python isn't rendering as JSON.
+Here is my function:
+def list_txids(self, address):
+        url = f""{self.base_api_url}/api/address/{address}""
+      ..."
+How to extract date from a column in Pandas?,https://stackoverflow.com/questions/78934548/how-to-extract-date-from-a-column-in-pandas,0,"I am trying to extract only dates from a column(Result) of a dataframe. Dates will only start from year 2000 and beyond but the format of date could be any including datetime.
+What I want is just date...."
+How to change all boolean values in a list at once [duplicate],https://stackoverflow.com/questions/78934525/how-to-change-all-boolean-values-in-a-list-at-once,0,"I have a boolean list consist of True and False as follows. I want to know how to change all the values ​​in a list to True or False at once.
+my_list = [ False, True, False ]
+print(my_list)
+
+my_list[:]..."
+My bot can't seem to click on an website button,https://stackoverflow.com/questions/78934524/my-bot-cant-seem-to-click-on-an-website-button,0,I am trying to use my python and selenium to click on a button changing the talk method from generative to neural on AWS Polly. I have tried the x-path and the selector for multiple variations of the ...
+"How to solve the problem of "" undefined symbol: MKL_Get_Version""?",https://stackoverflow.com/questions/78934520/how-to-solve-the-problem-of-undefined-symbol-mkl-get-version,0,"/miniconda3/envs/kino_nerf/lib/python3.8/site-packages/kilonerf_cuda.cpython-38-x86_64-linux-gnu.so: undefined symbol: MKL_Get_Version
+
+I have tried to install mkl and mkl-service using Conda, but the ..."
+Why max() doesn't work but idxmax() does on 'category' dtype in Pandas?,https://stackoverflow.com/questions/78934488/why-max-doesnt-work-but-idxmax-does-on-category-dtype-in-pandas,0,"Why doesn't max() work but idxmax() does on 'category' dtype in Pandas?
+import pandas as pd
+
+s = pd.Series([1, 4, 3], index=['a', 'b', 'c'])
+s = s.astype('category')
+
+# print(s.max())  # it doesn't ..."
+How do I add a paragraph with add_run() before table with python docx?,https://stackoverflow.com/questions/78934476/how-do-i-add-a-paragraph-with-add-run-before-table-with-python-docx,0,"I have a table with a line at the top of the document. I need to replace that with just the line inside that table and make the line bold as well.
+I am able to insert a line with add_paragraph and ..."
+How to deploy API made on Flask on Google Cloud Engine App,https://stackoverflow.com/questions/78934461/how-to-deploy-api-made-on-flask-on-google-cloud-engine-app,-1,"I'd like to know how to deploy a Python script using Flask. Some videos on YouTube suggest using app.yaml, while ChatGPT recommends using Docker. However, I'm struggling with using both. I'm using the ..."
+why the pywin32 service work when running by administrator account but not work by local system account?,https://stackoverflow.com/questions/78934448/why-the-pywin32-service-work-when-running-by-administrator-account-but-not-work,0,"I wrote a python script running as windows service to reversely forward a port. The service works ok when it logged on by the administrator account. But when it logged on by local system account, the ..."
+makemigrations is not identifying changes. Is there any solution to resolve this without touching my database migration logs?,https://stackoverflow.com/questions/78934438/makemigrations-is-not-identifying-changes-is-there-any-solution-to-resolve-this,-1,"I encounter this problem in every Django project whenever I do some complex work. I tried deleting all the migrations folders from each app and then changed the database. It worked, but I'm looking ..."
+"I want to get an output of below program as 122.00, when I make input 50, but it is like 122.0 I need 2 digit output in this case",https://stackoverflow.com/questions/78934377/i-want-to-get-an-output-of-below-program-as-122-00-when-i-make-input-50-but-it,-2,"def temp_converter(_value):
+
+    fahrenheit = (_value*9.00/5.00)+32.00
+    fahrenheit = round(fahrenheit,2)
+    print(f""Temparature in fahrenheit : {fahrenheit}"")
+celcius = float(input(""..."
+How to do this revised Hanoi Tower question with Python? [closed],https://stackoverflow.com/questions/78934373/how-to-do-this-revised-hanoi-tower-question-with-python,-1,"Given three pegs: A, B and C, where they could have n disk. Their sizes increasing from top to bottom. We have to determine which peg the disks were initially placed, and how many moves there were to ..."
+Wildcard rule for @storage_fn.on_object_finalized?,https://stackoverflow.com/questions/78934371/wildcard-rule-for-storage-fn-on-object-finalized,0,"Currently, this Firebase function works fine
+@storage_fn.on_object_finalized(
+    bucket='XXX.appspot.com', 
+    timeout_sec=540, 
+    memory=options.MemoryOption.GB_32
+)
+def process_audio_file(event: ..."
+"Python error making structure ""Field required""",https://stackoverflow.com/questions/78934328/python-error-making-structure-field-required,0,"I'm trying to add Account to Settings and I get the following error. This doesn't make any sense because I pass in both user and pass, so why does it say I'm missing a field. If I remove the accounts ..."
+Call Python from C# (Error: Runtime.PythonDLL was not set or does not point to a supported Python runtime DLL),https://stackoverflow.com/questions/78934318/call-python-from-c-sharp-error-runtime-pythondll-was-not-set-or-does-not-point,0,"This is my code:
+using Python.Runtime;
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        try
+        {
+            // Set Python home and DLL paths
+            PythonEngine...."
+How to plot a cumulative sum based on a certain columns,https://stackoverflow.com/questions/78934312/how-to-plot-a-cumulative-sum-based-on-a-certain-columns,0,"Below is sample data from my dataframe. I am trying to plot the cumulative sales by date (X-axis is date that is sorted, Y-axis is cumulative sum of sales_USD). Each item code needs to have its own ..."
+Can these two Python functions be replaced by a single generic one taking either a list or a tuple argument?,https://stackoverflow.com/questions/78934295/can-these-two-python-functions-be-replaced-by-a-single-generic-one-taking-either,1,"Can these two Python functions:
+def negativeList(a):
+  return [-e for e in a]
+
+def negativeTuple(a):
+  return tuple(-e for e in a)
+
+be replaced by an equvalent single generic function negative(a)?"
+Why did we use the REPLACE operator while inserting values in the Member (junction) table?,https://stackoverflow.com/questions/78934280/why-did-we-use-the-replace-operator-while-inserting-values-in-the-member-juncti,-3,"I am currently doing a Coursera course (Using Databases with Python) on Python 3. In an assignment of making a roster which shows which user is doing what course, given to make a many-to-many ..."
+"""Save CSV with pandas & conditions"" [closed]",https://stackoverflow.com/questions/78934271/save-csv-with-pandas-conditions,-4,"Good afternoon everyone!
+I need to save my file in csv format, as the program that I will import files only receives in this format.
+Here's my code:
+enter image description here
+When I import it to ..."
+transformers/LLM with pytorch running out of memory,https://stackoverflow.com/questions/78934229/transformers-llm-with-pytorch-running-out-of-memory,-1,I adapted the transformer from https://pub.towardsai.net/build-your-own-large-language-model-llm-from-scratch-using-pytorch-9e9945c24858 for translating into another language to two of my own formal ...
+How can I keep Google Colab from disconnecting in 2024?,https://stackoverflow.com/questions/78934218/how-can-i-keep-google-colab-from-disconnecting-in-2024,0,"I'm having problem running Google Colab, I need it to run around 12-15 hours for model training but it keeps disconnecting after 6-8 hours.
+I've used these two snippets from this thread:  How can I ..."
+Reading directory to watch failed [Error: ENOENT: no such file or directory,https://stackoverflow.com/questions/78934184/reading-directory-to-watch-failed-error-enoent-no-such-file-or-directory,0,"I am getting a dictionary error. Error name is ([error] Reading directory to watch failed [Error: ENOENT: no such file or directory, scandir)
+Please help me to solve this problem. Thank you
+I change ..."
+Binary Space Partitioning Tree Implementation [closed],https://stackoverflow.com/questions/78934161/binary-space-partitioning-tree-implementation,-1,Does anyone have or know where to find an example of the Python BSP-Tree implementation? I am doing a comparison between the K-d tree and the BSP tree and their runtime based on an NN search. (After ...
+Transaction signing failure raydium CP-Swap,https://stackoverflow.com/questions/78934149/transaction-signing-failure-raydium-cp-swap,0,"I have been attempting to send transactions using the Standard AMM (CP-Swap, New), particularly for tokens that do not utilize the OpenBook program ID. However, I encounter issues during signing and ..."
+looking for help on some Python [closed],https://stackoverflow.com/questions/78934146/looking-for-help-on-some-python,-4,"So, I wanted to create a keylogger as a kind of simple way of getting my feet wet when it comes to learning how to code,
+C:\Users\ty\PycharmProjects\pythonProject\.venv\Scripts\python.exe ""C:\..."
+Mismatched tensors with a Transformer,https://stackoverflow.com/questions/78934132/mismatched-tensors-with-a-transformer,0,"I recently made a post about an AI I'm making but I've run into some issues.
+Here's my code:
+import time
+full_log = """"
+full_log += f""Begin log for train.py\nCurrent time:\n{time...."
+RuntimeError: element 0 of tensors does not require grad and does not have a grad_fn),https://stackoverflow.com/questions/78934120/runtimeerror-element-0-of-tensors-does-not-require-grad-and-does-not-have-a-gra,0,"I am training an autoencoder and for my specific use-case, I have implemented a custom loss based off of the Wasserstein Metric (Earth Mover's Metric) in PyTorch. My general idea behind using this is ..."
+How to setup a SLURM REST API Python client that uses --wrap functionality of sbatch?,https://stackoverflow.com/questions/78934082/how-to-setup-a-slurm-rest-api-python-client-that-uses-wrap-functionality-of-sb,0,"The usage I'm trying to replicate from SLURM sbatch is the following:
+JOB_NAME=""hello-conda""
+PARTITION=""ram16cpu4""
+N_JOBS=4
+
+sbatch  -J ${JOB_NAME} -N 1 -p ${PARTITION} -c ${N_JOBS}..."
+How to Capture Requests with sb in SeleniumBase?,https://stackoverflow.com/questions/78934070/how-to-capture-requests-with-sb-in-seleniumbase,0,"Description:
+I'm encountering a challenge when using SeleniumBase. When using the sb instance, I can easily load cookies (e.g., sb.load_cookies(name=""cookies.txt"")), which is very convenient ..."
+Why does this simple tkinter widget not work?,https://stackoverflow.com/questions/78934029/why-does-this-simple-tkinter-widget-not-work,0,"I'm having trouble making interactive images with tkinter in Python, and I've produced a minimal example which I don't understand. The code below is supposed to create a simple white window, which ..."
+Handling multiple instances of windows through menu in Tkinter,https://stackoverflow.com/questions/78933938/handling-multiple-instances-of-windows-through-menu-in-tkinter,0,"I have a menu with items through which I want to open separate windows:
+from tkinter import *
+from PIL import ImageTk, Image
+
+def show_text():
+    top = Toplevel()
+    top.title(""Text"")
+    ..."
+How Can I Connect to a Kubernetes RabbitMQ Cluster Using a Pika Connection in Python?,https://stackoverflow.com/questions/78933916/how-can-i-connect-to-a-kubernetes-rabbitmq-cluster-using-a-pika-connection-in-py,0,"I am trying to establish a connection to my RabbitMQ Cluster running in a Kubernetes Service using a Pika connection in Python.
+I've successfully created my RabbitMQ cluster by running kubectl apply -..."
+How to get the Linkedin page posts metrics with Pages Data Portability API,https://stackoverflow.com/questions/78933914/how-to-get-the-linkedin-page-posts-metrics-with-pages-data-portability-api,0,"I already have the LinkedIn Pages Data Portability API access, the client ID, client secret, and access token, but still can't get the page post metrics such as impressions, interactions, and comments ..."
+My buy/sell sign Messages are delayed by 1 week compared to tradingview,https://stackoverflow.com/questions/78933889/my-buy-sell-sign-messages-are-delayed-by-1-week-compared-to-tradingview,0,"Even after using GPT, I couldn't quite figure out the exact reason why my code isn't working as expected.
+Here's what I'm trying to achieve:
+For Weekly Signals: My goal is to receive buy and sell ..."
+How install own python package to be used as a command system wide after PEP-668?,https://stackoverflow.com/questions/78933843/how-install-own-python-package-to-be-used-as-a-command-system-wide-after-pep-668,2,"I have a utility written in Python that I used to use and need to use it again.
+It's done as a package I install and an executable script with shebang that will be imported and called the main ..."
+How to properly shear a line in a 2D image using interpolation in Python?,https://stackoverflow.com/questions/78933840/how-to-properly-shear-a-line-in-a-2d-image-using-interpolation-in-python,0,"I'm trying to apply a shearing transformation to a simple 2D line filter (represented as a binary image) using interpolation methods in Python. However, the resulting image after applying the shear ..."
+Difference of Enums in python,https://stackoverflow.com/questions/78933774/difference-of-enums-in-python,0,"I was exploring different fields in Tortoise ORM and found out about CharEnumField which accepts a string enum for it to work. In the docs author used this class:
+class Currency(str, Enum):
+    HUF = &..."
+"Graph test failing in second for iteration, but without the for it never fails",https://stackoverflow.com/questions/78933765/graph-test-failing-in-second-for-iteration-but-without-the-for-it-never-fails,0,"Heres whats happening:
+I have a python code that is trying to compare if my graph implementation matches the networkx lib implementation.
+When i run my code like this:
+nx_graph = nx.Graph()
+my_graph = ..."
+Struggling with detecting a moving/animated icon using template matching,https://stackoverflow.com/questions/78933757/struggling-with-detecting-a-moving-animated-icon-using-template-matching,2,"I'm trying to detect a small icon that moves using OpenCV. I've followed several tutorials that use matchTemplate(), but it's not working as well as I hoped. Sometimes it detects the icon, but other ..."
+Why is PyTorch Lightning slower than my basic PyTorch code?,https://stackoverflow.com/questions/78933748/why-is-pytorch-lightning-slower-than-my-basic-pytorch-code,0,"I have built a basic model in PyTorch that runs quite fast on my MacBook M2. To improve the structure and readability, I migrated it to the PyTorch Lightning framework. However, I noticed that the ..."
+Python snowflake connector fetch_pandas_all() fails with larger record count,https://stackoverflow.com/questions/78933738/python-snowflake-connector-fetch-pandas-all-fails-with-larger-record-count,0,I am attempting to export snowflake data to a csv but I am finding that the code below only works for a few records. I am unable to ascertain what the maximum number of records that it works for is ...
+Web scraping with Python BeautifulSoup,https://stackoverflow.com/questions/78933708/web-scraping-with-python-beautifulsoup,1,"I would like to collect data by web scraping with Python BeautifulSoup from the website for my data analysis project.
+the data I want to collect from the website;
+
+date: 06.07.2027
+Stage: Berghain, ..."
+loading multiple images at a time in a scroller,https://stackoverflow.com/questions/78933697/loading-multiple-images-at-a-time-in-a-scroller,0,"I'm new to Python, and basically, what I'm trying to make is an image scroller that shows 3 images at a time. I thought that putting them into multiple lists would make it work, but it doesn't. I'll ..."
+remove file from GCS with DVC,https://stackoverflow.com/questions/78933682/remove-file-from-gcs-with-dvc,1,"Is there any way to remove a credential file that I've 'dvc pushed' to GCS?
+I can't access the GCS interface via the browser either
+I tried to do dvc rm data/jsons/creds.json but it says that 'dvc...."
+Airflow Task Group Execution Order,https://stackoverflow.com/questions/78933681/airflow-task-group-execution-order,0,"I am new to airflow and trying to understand when tasks will be run. I do not understand why task_3a is running immediately when running this example.
+How do I make this sample dag run in this order:
+
+..."
+Calculate the number of points in a given radius by X and Y coordinates,https://stackoverflow.com/questions/78933603/calculate-the-number-of-points-in-a-given-radius-by-x-and-y-coordinates,0,"I have a python code where, when given a list of points (X and Y coordinate pairs) in a dataframe and a specified circle radius I would like the code to go through each point, treat it as the the ..."
+Errors while trying to install gym-retro on vs code,https://stackoverflow.com/questions/78933578/errors-while-trying-to-install-gym-retro-on-vs-code,1,"I installed retro and made update for those pip install --upgrade setuptools_scm
+and pip install --upgrade setuptools wheel
+and I already have vs installer 2019 but I downloaded also 2022 but also ..."
+Python py7zr extracting .7z archive differently to Linux command line 7zip,https://stackoverflow.com/questions/78933569/python-py7zr-extracting-7z-archive-differently-to-linux-command-line-7zip,1,"I have created a .7z archive using the usual basic Windows UI. It is my understanding this defaults to relative paths for any archives created. When looking in the archive post creation, all I see is ..."
+Python SqlAlchemy Session object considered None by VSCode,https://stackoverflow.com/questions/78933542/python-sqlalchemy-session-object-considered-none-by-vscode,0,"I have just started working in a new Python backend project and decided to reuse some code from an older project I built in the past. Back then, VSCode would not complain about this issue, but now it ..."
+How to jump to next element once match has been found in a for loop?,https://stackoverflow.com/questions/78933527/how-to-jump-to-next-element-once-match-has-been-found-in-a-for-loop,0,"Python beginner here. In a list such as:
+lst = [1,1,1,1,1,2,2,2,3,3,3,3,4,4,4]
+
+One pair would be (1,1) , (2,2) , (3,3), etc. When this happens it should count as ONE pair.
+(1,2) , (2,3), or (3,4) is ..."
+"I need to add a specific value in a cell, (new column, same row) if a cell is yellow",https://stackoverflow.com/questions/78933516/i-need-to-add-a-specific-value-in-a-cell-new-column-same-row-if-a-cell-is-ye,2,"I'd like to have
+From this:
+enter image description here
+To this:
+enter image description here
+wb = openpyxl.load_workbook('AG Construction.xlsx',data_only=True)
+workbook = load_workbook(filename='AG ..."
+"multiprocess not working correctly (Windows, Python2)",https://stackoverflow.com/questions/78933484/multiprocess-not-working-correctly-windows-python2,0,"So I run this:
+import time
+from multiprocessing import Process
+def ghello():
+    print (""hello world g"")
+    
+def fhello():
+    print(""hello world f"")
+
+if __name__ == ""..."
+How can access the pointer values passed to and returned by C functions from Python?,https://stackoverflow.com/questions/78933467/how-can-access-the-pointer-values-passed-to-and-returned-by-c-functions-from-pyt,3,"Can my python code have access to the actual pointer values received and returned by C functions called through ctypes?
+If yes, how could I achieve that ?
+
+I'd like to test the pointer values passed ..."
+Using the name of file select by user into a dictionary in python,https://stackoverflow.com/questions/78933445/using-the-name-of-file-select-by-user-into-a-dictionary-in-python,0,"I have a basic code, and essentially what I am trying to do is ask user to select a file. The goal is to save the name of that file as a ""value"", and use it into a dictionary.
+The code is ..."
+Auth in Django with other fields,https://stackoverflow.com/questions/78933421/auth-in-django-with-other-fields,1,I have a Django rest framework app and I modified its User model with AbstractBaseUser. I deployed the project on a VPS and now the customer wants to make changes on authentication. I have to set BOTH ...
+Wait for a subprocess to start,https://stackoverflow.com/questions/78933407/wait-for-a-subprocess-to-start,0,"When I start Davinci Resolve, while it is loading it starts a subprocess called Resolve.
+Then when it finishes loading, this sub-process closes and opens another called Project Manager.
+
+import ..."
+Tkinter With Images,https://stackoverflow.com/questions/78933402/tkinter-with-images,2,"With the following code, I can not display an image in a tkinter cell:
+from tkinter import *
+from tkinter import filedialog
+from PIL import Image, ImageTk
+
+root = Tk()
+root.geometry=(""1000x1000&..."
+CORS BLOCKING python heroku backend API on my TEST FLIGHT,https://stackoverflow.com/questions/78933376/cors-blocking-python-heroku-backend-api-on-my-test-flight,0,"USIN PYTHON BACKEND AND REAT NATIVE FRONT END:
+I deployed my backend on Heroku and setted up my enviroment correctly, when I start the server, the API calls works perfectly, but, when I use my TEST ..."
+Python poetry has lost dependencies and is using the wrong version of python,https://stackoverflow.com/questions/78933363/python-poetry-has-lost-dependencies-and-is-using-the-wrong-version-of-python,0,I've been using Python Poetry for the past few weeks.  When I want back to a project and started poetry shell and tried to execute it it failed because it could not find its dependencies.  Running ...
+decimal.InvalidOperation in Tortoise ORM,https://stackoverflow.com/questions/78933344/decimal-invalidoperation-in-tortoise-orm,0,"Here's how my model is defined:
+class User(Model):
+    id = BigIntField(primary_key=True, source_field=""user_id"")
+    text = CharField(max_length=255, null=True)
+    decimal = DecimalField(..."
+"ValueError:'rope_scaling' must be a dictionary with two fields, 'type' and 'factor'",https://stackoverflow.com/questions/78933305/valueerrorrope-scaling-must-be-a-dictionary-with-two-fields-type-and-fact,0,"When training llama3.1-8B-Instruct model on Amazon sagemaker, the training job fails with the following output:
+./usr/local/lib/python3.10/dist-packages/huggingface_hub/file_download.py:1150: ..."
+How do i unban a channel from my groupchat using my pyrogram bot?,https://stackoverflow.com/questions/78933286/how-do-i-unban-a-channel-from-my-groupchat-using-my-pyrogram-bot,0,"I banned my channel from sending messages in a chat using pyrogram's ban_chat_member(), but now I can't unban it. I tried using unban_chat_member() and I still can't send messages as my channel. I can'..."
+Python Script read LF without CR in text file and replace with another character,https://stackoverflow.com/questions/78933268/python-script-read-lf-without-cr-in-text-file-and-replace-with-another-character,0,"I have several tab-delimited text files obtained from the FFIEC site (https://cdr.ffiec.gov/public/PWS/DownloadBulkData.aspx) <Call Reports - Single Period, Schedule RIE> that have LF (line feed)..."
+Efficient joins in several dataframes in PySpark,https://stackoverflow.com/questions/78933250/efficient-joins-in-several-dataframes-in-pyspark,0,"I have several dataframes that look like this:
+name_df:
+| id | name |
+| -- | ---- |
+| 1  | Mark |
+| 2  | Lisa |
+| 2  | Josh |
+
+age_df:
+| name  | age |
+| --    | --- |
+| Mark  | 20  |
+| John  | 25  |
+| ..."
+"Python package installed, but getting import error in Jupyter notebook",https://stackoverflow.com/questions/78933243/python-package-installed-but-getting-import-error-in-jupyter-notebook,0,"Fresh install of Python 3.12.5 on Mac OS.
+Getting import error in Jupyter notebook:
+
+But works fine in terminal:
+
+I am not using any virtual environment either.
+Here's where terminal shows python and ..."
+Keep training pytorch model on new data,https://stackoverflow.com/questions/78933232/keep-training-pytorch-model-on-new-data,1,"I'm working on a text classification task and have decided to use a PyTorch model for this purpose. The process mainly involves the following steps:
+
+Load and process the text.
+Use a TF-IDF Vectorizer...."
+Fixing number of directional bins in windrose plot,https://stackoverflow.com/questions/78933223/fixing-number-of-directional-bins-in-windrose-plot,0,"I'm trying to fix my windrose plot so the data are partitioned into the correct bins for direction. My data is wind data from a NOAA weather station, and the original measurements were degrees, which ..."
+Is string slice-by-copy a CPython implementation detail or part of spec?,https://stackoverflow.com/questions/78933210/is-string-slice-by-copy-a-cpython-implementation-detail-or-part-of-spec,5,"Python does slice-by-copy on strings: Does Python do slice-by-reference on strings?
+Is this something that all implementations of Python need to respect, or is it just a detail of the CPython ..."
+Problem with Python subprogram popen and run,https://stackoverflow.com/questions/78933202/problem-with-python-subprogram-popen-and-run,0,"I was trying to experiment with processes in Python, and am running into a situation that doesn't seem to make sense.
+My first Python program is:
+import subprocess;
+
+print('Main running!')
+
+subprocess...."
+Add text to combinations and permutations,https://stackoverflow.com/questions/78933194/add-text-to-combinations-and-permutations,0,"I am new at codding.I have a question.How do I add text to combinations and permutations I've created? Also, is there a way to delete repetitive states in a repetitive permutation, that is, to print ..."
+"How to write frames from list to the 1 channel wav file correctly, using python.wave?",https://stackoverflow.com/questions/78933182/how-to-write-frames-from-list-to-the-1-channel-wav-file-correctly-using-python,0,"import wave
+
+audio_file = wave.open('1.wav', 'rb')
+frames = audio_file.readframes(audio_file.getnframes())
+audio_file.close()
+
+binary_data = list(frames)
+
+output_file = wave.open('output.wav', 'wb')
+..."
+What's the time complexity of this recursive function?,https://stackoverflow.com/questions/78933158/whats-the-time-complexity-of-this-recursive-function,2,"Was asked to tell the order of growth of following function:
+def lenRecur(s):
+   if s == '':
+      return 0
+   else:
+      return 1 + lenRecur(s[1:])
+
+Should be O(n²) where n = len(s). But was given O(..."
+Type-hinting a generator: send_type Any or None?,https://stackoverflow.com/questions/78933132/type-hinting-a-generator-send-type-any-or-none,4,"I have a generator that does not use send() values. Should I type its send_value as Any or None?
+import typing as t
+
+def pi_generator() -> t.Generator[int, ???, None]:
+    pi = ""3141592""
+ ..."
+File not printed using os.startfile?,https://stackoverflow.com/questions/78933115/file-not-printed-using-os-startfile,0,"i try to print a document on windows using the following code
+import os
+import sys    
+os.startfile(r""D:/DEV/Python-Diverses/os/testb.png"", ""print"")
+
+But nothing happens at all - ..."
+"Multiply an input by 5 raised to the number of digits of each numbers, but my code needs reworking",https://stackoverflow.com/questions/78933109/multiply-an-input-by-5-raised-to-the-number-of-digits-of-each-numbers-but-my-co,2,"I'm trying to multiply an input * 5 raised to the power of the input.
+I tried this:
+def multiply(n):
+return 5 ** len(str(n)) * n
+
+I tried (n = -2), but instead of giving me -10, which is the correct ..."
+why is my ball simulation physic glitching in pygame? [duplicate],https://stackoverflow.com/questions/78933108/why-is-my-ball-simulation-physic-glitching-in-pygame,-2,"I am currently working on a pygame simulation, where a smaller ball is bouncing in a large circle. I tried implementing an collision and update method, but the ball seems to glitch around at certain ..."
+define multiple methods for comparison at once using the same principle,https://stackoverflow.com/questions/78933101/define-multiple-methods-for-comparison-at-once-using-the-same-principle,1,"I am building a binary tree in python defining the node as a class. I wanted the node to have a value and be comparable to other nodes in order to, for example, sort a list of them.
+I wanted to know ..."
+Disable Tkinter button without changing the button color,https://stackoverflow.com/questions/78933100/disable-tkinter-button-without-changing-the-button-color,1,"I'm doing a flip & match game and it can work as well , but I am trying to make my UI interface look better.
+From my code , i will disable the button when the button have been clicked, it will ..."
+"`AttributeError` when importing `torchtext` - ""Symbol not found in libc10.dylib""",https://stackoverflow.com/questions/78933082/attributeerror-when-importing-torchtext-symbol-not-found-in-libc10-dylib,1,"I'm trying to import torchtext in my Python script, but I'm encountering an error related to a missing symbol in libc10.dylib. When I run my script, I get the following error:
+-------------------------..."
+ConfigParser - write a list as a duplicate key,https://stackoverflow.com/questions/78933071/configparser-write-a-list-as-a-duplicate-key,0,"I have searched stackoverflow but can't seem to find an answer similar to mine.
+Most people want to parse duplicate keys, however I want to write them. (I'd prefer to do this using async file writes ..."
+How to add a scrollbar to a frame with tkinter,https://stackoverflow.com/questions/78933039/how-to-add-a-scrollbar-to-a-frame-with-tkinter,0,"I am trying to make my own kanban board. I need four columns and some cards in them.
+I have two issues at the moment:
+
+Each column is not exactly the same size, if there is no card, the column is just ..."
+JSON interpretation of chunked data,https://stackoverflow.com/questions/78932994/json-interpretation-of-chunked-data,1,I need to locate the parameters for a specific object returned from a remote server in JSON format. But the number of objects on the server is always increasing so the JSON responses get larger and ...
+ImportError: cannot import name 'cpu_count' from 'joblib.externals.loky' (unknown location),https://stackoverflow.com/questions/78932983/importerror-cannot-import-name-cpu-count-from-joblib-externals-loky-unknow,0,"I am attempting to add a column that represents the similarity of two segments of text based on where they are located in embedding space, using the openai library to embed text.
+import openai
+import ..."
+Accessing pokeapi - taking a long time,https://stackoverflow.com/questions/78932957/accessing-pokeapi-taking-a-long-time,3,"I want to get a list of names of pokemon from the first 150 that have a hp less than a particular value.
+Here's what I've got so far:
+def get_pokemon_with_similar_hp(max_hp):
+    pokemon_names = []
+   ..."
+Read Large XML file from S3 Bucket and parse using XSD,https://stackoverflow.com/questions/78932937/read-large-xml-file-from-s3-bucket-and-parse-using-xsd,0,"I am creating a Lambda to validate an XML message against an XSD. I have all the python code working correctly on AWS, however as the file can be very large (around 2GB), I needed to find a way to ..."
+How to Resolve the Issue: Django with Visual Studio Code Changing Template Without Effect?,https://stackoverflow.com/questions/78932929/how-to-resolve-the-issue-django-with-visual-studio-code-changing-template-witho,0,"I have a Django app, and I am using Visual Studio Code as my editor. I have implemented functionality for recovering passwords via an email template. I edited the template to see what effect it would ..."
+"How to add padding to matplotlib plot when aspect is ""equal""?",https://stackoverflow.com/questions/78932922/how-to-add-padding-to-matplotlib-plot-when-aspect-is-equal,1,"Whenever I make plots with plt.gca().set_aspect(""equal""), the plot can become scrunched to the point where it appears collapse. How can I add some extra padding or retain padding while ..."
+Creating a 3d Bar Chart in Python,https://stackoverflow.com/questions/78932897/creating-a-3d-bar-chart-in-python,1,"I tried to replicate the following code to create 3D bar charts:
+https://pythonprogramming.net/3d-bar-chart-matplotlib-tutorial/
+The idea behind the code below is to compute the Likelihood ratio of ..."
+Travelling Saleman Problem (TSP) to browse a polygons list,https://stackoverflow.com/questions/78932895/travelling-saleman-problem-tsp-to-browse-a-polygons-list,0,"I am looking for a TSP variant is order to make a drone trajectory ""draw"" all polygons in the shortest distance without crossing the external blue polygon:
+
+(This is made to create flight ..."
+How to merge two json files key values and keep the redundant objects unique [duplicate],https://stackoverflow.com/questions/78932866/how-to-merge-two-json-files-key-values-and-keep-the-redundant-objects-unique,0,"I have two json files with set of common objects {    ""sample"": { ""id"": ""NA12878"" }, ""wgs_metrics"":. I want to merge them together and keep the redundant ..."
+python virtual environment is not recognizing module even though it has been already installed [closed],https://stackoverflow.com/questions/78932829/python-virtual-environment-is-not-recognizing-module-even-though-it-has-been-alr,-1,"image from terminal
+I am playing with fastapi but this is second time I encountered same problem my virtual environment is not recognizing some of install python modules. I reinstalled the module but ..."
+Using Telethon with webhooks,https://stackoverflow.com/questions/78932808/using-telethon-with-webhooks,1,"I'm using the telethon lib to build a telegram bot. However, when trying to implement a webhook system, to avoid polling, I get this exception:
+raise RuntimeError('The asyncio event loop must not ..."
+VS Code not accepting Python Methods,https://stackoverflow.com/questions/78932763/vs-code-not-accepting-python-methods,-2,"I'm new to Visual Studio Code & Python.
+I was following a youtube training session to create a basic test case to test amazon.
+When I run the below Python scripts nothing happens when I run the ..."
+Pandas sort one column by custom order and the other naturally,https://stackoverflow.com/questions/78932725/pandas-sort-one-column-by-custom-order-and-the-other-naturally,1,"Consider the following code:
+import pandas
+import numpy
+
+strs = ['custom','sort']*5
+df = pandas.DataFrame(
+    {
+        'string': strs,
+        'number': numpy.random.randn(len(strs)),
+    }
+)
+
+..."
+File mysteriously growing in size,https://stackoverflow.com/questions/78932722/file-mysteriously-growing-in-size,0,"I have an implementation of the Rijndael algorithm, where I create an array from a file, encrypt it, and write it to another file. The array never changes in size, and all of the values stay in 0-255 ..."
+"Jupyter Notebook: ""Fatal error in launcher: unable to create process using..."" after changing folder name",https://stackoverflow.com/questions/78932712/jupyter-notebook-fatal-error-in-launcher-unable-to-create-process-using-a,0,"I recently changed the name of the parent folder holding the ""Scripts"" directory for my Python installation, and it appears to be causing some issues. This is in Windows.
+For some background,..."
+How can I optimize this python code to give me the most detail in the least amount of lines,https://stackoverflow.com/questions/78932705/how-can-i-optimize-this-python-code-to-give-me-the-most-detail-in-the-least-amou,0,"I have this python code which takes an image, and converts it into something that can be drawn by Blot By Hackclub. Blot has a very simple coordinate to coordinate draws a line system. Currently this ..."
+A migration from XAMP to WAMP made a Python script unusable in PHP,https://stackoverflow.com/questions/78932669/a-migration-from-xamp-to-wamp-made-a-python-script-unusable-in-php,0,"I was running PHP on XAMP (Windows) without any issues. The PHP website calls a Python function at some point, which uses a library.
+I just changed to WAMP because I needed a newer version to match a ..."
+plotly - replace first and last yticks with min and max value,https://stackoverflow.com/questions/78932657/plotly-replace-first-and-last-yticks-with-min-and-max-value,0,"I would like to mark max/min value as yticks like below:
+import plotly.graph_objects as go
+import pandas as pd
+import plotly.express as px
+
+def save_fig(fig,pngname):
+    fig.write_image(pngname,..."
+xarray time slice out of range,https://stackoverflow.com/questions/78932651/xarray-time-slice-out-of-range,0,"I try to create a slice along the time dimension of an xarray.Dataset. However, if I try to take a slice which ends at a full hour, the returned slice actually ends at the next hour.
+So let's say I ..."
+Error When Uploading Videos via the Youtube Data API v3,https://stackoverflow.com/questions/78932650/error-when-uploading-videos-via-the-youtube-data-api-v3,0,"I am currently writing an application that involves the uploading of videos to Youtube using the Youtube Data API v3 with Python. This has been working until recently, in which I am suddenly receiving ..."
+pymqi seems to ignore MD settings for ccsid for mqput,https://stackoverflow.com/questions/78932542/pymqi-seems-to-ignore-md-settings-for-ccsid-for-mqput,0,"We are using IBM MQ with Microfocus Cobol (Enterprise Developer) and, alternatively, python (via the pymqi module) on Red Hat linux.
+Our messages contain binary data and are single byte coded - since ..."
+Python Async Thread-safe Semaphore,https://stackoverflow.com/questions/78932535/python-async-thread-safe-semaphore,0,"I'm looking for a thread-safe implementation of a Semaphore I can use in Python.
+The standard libraries asyncio.Semaphore isn't thread-safe.
+The standard libraries threading.Semaphore doesn't have ..."
+Add X days to a Datetime Series,https://stackoverflow.com/questions/78932526/add-x-days-to-a-datetime-series,1,"I have a Datetime Series that always contains the datetime of yesterday like:
+Series: '' [datetime[ns]]
+[
+    2024-08-29 00:00:00
+]
+
+How can I add 2 days to that Datetime Series so that I can add the ..."
+ODBC Driver 18 Not Found in Azure Function Using Python 3.11,https://stackoverflow.com/questions/78932509/odbc-driver-18-not-found-in-azure-function-using-python-3-11,0,"I'm creating an Azure Function using Python 3.11 to write data to an Azure SQL database with the pyodbc library. However, I'm running into an issue where the ODBC Driver 18 is not found. The error ..."
+How to import dataset for image sequence classification?,https://stackoverflow.com/questions/78932500/how-to-import-dataset-for-image-sequence-classification,0,"I want to build a model (RNN) on an image sequence to predict a binary variable. I saw a lot of tutorials for multi-input classification, but I didn't find anywhere how to import my data ?
+I have a ..."
+Paid number for account creation and otp verification [closed],https://stackoverflow.com/questions/78932469/paid-number-for-account-creation-and-otp-verification,-2,"Title: How to Obtain Paid Mobile Numbers for Account Creation and OTP Verification?
+I am working on a project where I need to create multiple accounts on platforms like LinkedIn, and each account ..."
+"Create Polygons, centered on points, and following the angled line before and after the point",https://stackoverflow.com/questions/78932451/create-polygons-centered-on-points-and-following-the-angled-line-before-and-af,0,"Good morning - I need help with a python script ran in ArcGIS Pro 3.3 Notebook
+I have a script that creates polygons centered on each point that aligns with the angle of the polyline as shown in FIG 1...."
+PolynomialFeatures with mixed degree in python?,https://stackoverflow.com/questions/78932447/polynomialfeatures-with-mixed-degree-in-python,0,"I am looking for a method that interaction terms in multiple regression they are with fractional or mixed powers.
+By default, the powers of x1,x2 are integers. How to replace and test fractional ..."
+Mask r-cnn model not converging and accuracies for training and validation are oscillating between NaN and 0.09 [closed],https://stackoverflow.com/questions/78932442/mask-r-cnn-model-not-converging-and-accuracies-for-training-and-validation-are-o,-2,"I am trainning a mask r-cnn model using pytorch and the DeepGlobe 2018 Satellite Images dataset such as https://arxiv.org/pdf/1805.06561.
+I create the script, the code works, so the train begin but ..."
+Problem with running a script using selenium python via php,https://stackoverflow.com/questions/78932436/problem-with-running-a-script-using-selenium-python-via-php,0,"I have a problem with executing a script from the PHP side. If I execute the python script from the console, everything works. If it is executed from php, i.e. via the www-data user, there is a ..."
+"Encrypt in Python, Decryp in PHP using AES/OpenSSL",https://stackoverflow.com/questions/78932431/encrypt-in-python-decryp-in-php-using-aes-openssl,0,"I am struggling with encrypting a string in python and decrypting the result in PHP. Here is what I do:
+from Crypto.Cipher import AES  #pycryptodome
+from base64 import b64encode,b64decode
+
+plainData = ..."
+Different results when GUI program is run manually or automatically by Systemd [closed],https://stackoverflow.com/questions/78932398/different-results-when-gui-program-is-run-manually-or-automatically-by-systemd,0,"I'm trying to run this Python script automatically on boot with MendelOS (linux) on the Coral DevBoard:
+import cv2
+import gi
+from detector import Detector
+gi.require_version('Gst', '1.0')
+from gi...."
+Shade cells in polar plot according to a value,https://stackoverflow.com/questions/78932375/shade-cells-in-polar-plot-according-to-a-value,1,"I wrote the following code in Python to make a polar plot
+fig = plt.figure()
+ax = fig.add_axes([0.1, 0.1, 0.8, 0.8], polar=True)
+
+for i in range(30*3):
+    if i<30:
+        color = ""blue""
+..."
+Gdal tiff to csv with Lon and Lat,https://stackoverflow.com/questions/78932368/gdal-tiff-to-csv-with-lon-and-lat,0,"I want to get a normal CSV file from GeoTIFF.
+I have the code:
+inputfile = '/content/gdrive/MyDrive/Colab Notebooks/tiff to nc/of_LC08_L2SP_169027_20130428_20200913_02_T1_SR_B5.TIF.tif'
+outputfile = '/..."
+How to color a difflib.unified_diff,https://stackoverflow.com/questions/78932357/how-to-color-a-difflib-unified-diff,0,"Do I have similar options like described here https://stackoverflow.com/a/64404008/10985257 with unified_diff?
+My solution for now would be to apply the color based on the value a string starts with.
+..."
+Bind ParamSec to a method but with a function inside of an object attributes,https://stackoverflow.com/questions/78932349/bind-paramsec-to-a-method-but-with-a-function-inside-of-an-object-attributes,0,"I would like to bind the arguments hints of a function to a method, but the function is a constructor of a BaseModel subclass that is inside of my class attributes.
+This is my code:
+from pydantic ..."
+Why does 2x - x == x in IEEE floating point precision?,https://stackoverflow.com/questions/78932341/why-does-2x-x-x-in-ieee-floating-point-precision,4,"I would expect this to only hold when the last bit of the mantissa is 0. Otherwise, in order to subtract them (since their exponents differ by 1), x would lose a bit of precision first and the result ..."
+Chatbot Backend Processes Requests but Frontend Hangs and Fails to Display Results [closed],https://stackoverflow.com/questions/78932326/chatbot-backend-processes-requests-but-frontend-hangs-and-fails-to-display-resul,-2,"I'm experiencing a critical issue with my chatbot application. The Flask backend processes requests correctly but fails to deliver results to the frontend, resulting in a non-functional chat interface...."
+How to use Machine Learning to find the pattern customer profile? [closed],https://stackoverflow.com/questions/78932302/how-to-use-machine-learning-to-find-the-pattern-customer-profile,-1,"I have a dataset with personal characteristics of customers who purchase from a fictional company. Initially, I don't have any target variable, only their characteristics. My goal is to find a pattern,..."
+Window automatically opening when program is ran [closed],https://stackoverflow.com/questions/78932273/window-automatically-opening-when-program-is-ran,-2,"I am coding a homescreen for my game in tkinter for my coursework. I made it so that when the ""create account"" button is clicked, another window opens up however when i run the program, this ..."
+"After rotating the image, a black background appears instead of a transparent background, which prevents these images from being overlaid normally",https://stackoverflow.com/questions/78932263/after-rotating-the-image-a-black-background-appears-instead-of-a-transparent-ba,0,"I wrote a Python program with Pillow to overlay a bunch of small images onto one large one. There was an adequate overlay, in which the transparent color did not replace the previous superimposed ..."
+Rotating a curve using python,https://stackoverflow.com/questions/78932231/rotating-a-curve-using-python,2,"I have written following code to rotate a curve by specified angle and return new equation.
+I know when we want to rotate the axes by an angle A then new coords become X=xcosA-ysinA and Y=xsinA+ycosA.
+..."
+Add a time range to a virtual dataset on superset with JINJA,https://stackoverflow.com/questions/78932177/add-a-time-range-to-a-virtual-dataset-on-superset-with-jinja,0,"I can use the following query with JINJA in Superset's SQL Lab:
+SELECT {{ current_username() }}
+
+and it returns the user name. But when I use the following query:
+SELECT *
+FROM tbl
+WHERE dttm_col > ..."
+I need to sum same amount field for day and month in django query,https://stackoverflow.com/questions/78932176/i-need-to-sum-same-amount-field-for-day-and-month-in-django-query,0,"I have a Django view that dynamically filters payment data based on the year and month parameters provided in the request. The view needs to handle three cases:
+
+When both year and month are provided: ..."
+Python: Average Values in 2D-Array,https://stackoverflow.com/questions/78932164/python-average-values-in-2d-array,1,I want to generate a twodimensional array in Python and I would like to iterate through each element and take an average. An element i should be averaged using the 8 surrounding array elements (...
+How to calculate second derivative using gpu and PyTorch [closed],https://stackoverflow.com/questions/78932161/how-to-calculate-second-derivative-using-gpu-and-pytorch,0,I have a python code segment related to a deep RL algorithm where it calculates the second order optimization and second derivative with Hessian matrix and fisher information matrix. Normally I run ...
+How to map returned std::map to Python dictionary using SWIG?,https://stackoverflow.com/questions/78932137/how-to-map-returned-stdmap-to-python-dictionary-using-swig,0,"Mapping a Python dictionary argument to a C++ std::map is described in How does SWIG wrap a map<string,string> in Python? and works like a charm. As peastman's comment suggests I do not even ..."
+"Using Python to launch KornShell, write a command and open another program from this",https://stackoverflow.com/questions/78932109/using-python-to-launch-kornshell-write-a-command-and-open-another-program-from,0,"I am new to python need to create a script to:
+launch Kornshell
+type a command ""boot"", a process which will take around 5 minutes.
+Once complete, in the Kornshell command line, open another ..."
+Failed to establish a new connection : Error 110 - Connection timed out with Salesforce Airflow connection,https://stackoverflow.com/questions/78932081/failed-to-establish-a-new-connection-error-110-connection-timed-out-with-sal,0,"I am trying to connect to Salesforce using Simple Salesforce bulk operator in Airflow.
+I have created the connection using the Airflow Ui for Salseforce using the connection type http and provide all ..."
+Efficiently recalculating dependent values in real-time data streams using NumPy in Python,https://stackoverflow.com/questions/78932072/efficiently-recalculating-dependent-values-in-real-time-data-streams-using-numpy,0,"I'm currently working on a real-time data processing system for financial securities, where I need to perform calculations as soon as new data comes in. Each financial security has multiple data ..."
+Update or access Pandas DataFrame via API extension register_dataframe_accessor,https://stackoverflow.com/questions/78932041/update-or-access-pandas-dataframe-via-api-extension-register-dataframe-accessor,0,"I would like to edit a dataframe through the `register_dataframe_extension` available in the pandas API.
+For example, I would like that that, provided the following code:
+import pandas as pd
+
+@pd.api...."
+Filter or join a polars dataframe by columns from another dataframe,https://stackoverflow.com/questions/78932035/filter-or-join-a-polars-dataframe-by-columns-from-another-dataframe,3,"I have two pl.DataFrames:
+from datetime import date
+
+import polars as pl
+
+df1 = pl.DataFrame(
+    {
+        ""symbol"": [
+            ""sec1"", ""sec1"", ""sec1"", &..."
+Popover on Table Cell Depending on the Value,https://stackoverflow.com/questions/78932028/popover-on-table-cell-depending-on-the-value,0,I am currently developing a website (with Flask) that features a data table containing abbreviated codes for some values. My goal is to have a popover on these cells to have the full meaning in the ...
+Assert that two files have been written correctly,https://stackoverflow.com/questions/78932018/assert-that-two-files-have-been-written-correctly,0,"How would I assert that this function wrote to those files in tests?
+def write() -> None:
+    with open('./foo', 'w') as f:
+        f.write('fooo')
+    with open('./bar', 'w') as f:
+        f.write(..."
+find variables for pandas.eval() using regex or the same expression parsers as pandas,https://stackoverflow.com/questions/78932016/find-variables-for-pandas-eval-using-regex-or-the-same-expression-parsers-as-p,0,"I've got a large number of variables that can be called in a script and evaluated by pandas.eval().  This is effectively a math evaluator.  BUT, we have to assemble the dataframe from multiple data ..."
+"I'm stuck in creating a Django custom user model, I added my app to settings, created superuser but when I login it fails [closed]",https://stackoverflow.com/questions/78932015/im-stuck-in-creating-a-django-custom-user-model-i-added-my-app-to-settings-cr,-1,"Here is the code, it fails to login on admin even after doing all necessary migrations
+I want a Django admin with a 4 user model, but I'm creating the superuser first
+from django.db import models
+from ..."
+Getting Error that list index out of range?,https://stackoverflow.com/questions/78931998/getting-error-that-list-index-out-of-range,-2,"here is the code
+import nltk 
+nltk.download('punkt')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
+
+from nltk.stem import WordNetLemmatizer
+lemmatizer = WordNetLemmatizer()
+
+import pickle
+import ..."
+Why Python can't start new thread,https://stackoverflow.com/questions/78931978/why-python-cant-start-new-thread,0,"I'm reading a digital-kWh-meter on a Raspberry Pi 3, each second.
+Every 60 seconds the program calls 4 threads to turn, on and off, 4 LEDS with different frequencies, for 50 seconds.
+After a few hours ..."
+Nothing Happens when I execute the PySide6 code of an application I made [closed],https://stackoverflow.com/questions/78931969/nothing-happens-when-i-execute-the-pyside6-code-of-an-application-i-made,0,I've been following a tutorial video on PyQt6/PySide6 everything was fine in designing. When I converted gui.ui file to ui_gui.py it would execute and nothing would appear on screen and no error was ...
+How do I rectify no such file found with path problem?,https://stackoverflow.com/questions/78931963/how-do-i-rectify-no-such-file-found-with-path-problem,0,"Path issue
+Like other newbies, it is hard to know the right question to ask. Why won't my path find the txt file in the same directory?
+I am following a text to learn Python. I expected the txt file ..."
+Finding the maximum product of an array element and a distance,https://stackoverflow.com/questions/78931947/finding-the-maximum-product-of-an-array-element-and-a-distance,2,"An array of integers is given. It is necessary to find the maximum product of the distance between a pair of elements and the minimum element of this pair.
+For example, [2, 5, 2, 2, 1, 5, 2] -> 20, ..."
+How to create a Stop Market order in Binance Futures API,https://stackoverflow.com/questions/78931942/how-to-create-a-stop-market-order-in-binance-futures-api,-1,"I am trying to use the Binance API to create a stop market order like its done in the Web Application but I keep running into problems. The few times the code goes through, it only creates the first ..."
+Is the generator expression stored anywhere semantically intact?,https://stackoverflow.com/questions/78931932/is-the-generator-expression-stored-anywhere-semantically-intact,0,"If I set a generator
+myra = (x + 100 for x in range(5))
+
+and then later do something with it, like
+for i in myra:
+    print(i)
+
+the generator has run its course, cannot be iterated over again, got ..."
+Keyboard and mouse input simulation/automation tools not working properly in Ubuntu,https://stackoverflow.com/questions/78931927/keyboard-and-mouse-input-simulation-automation-tools-not-working-properly-in-ubu,0,"I'm facing an issue with obtaining accurate mouse positions using pynput, pyautogui, and xdotool. Here’s what I’ve tried:
+Pynput
+from pynput.mouse import Controller
+mouse = Controller()
+print('Mouse ..."
+Помогите пожалуйста с (Python) numpy.power() [closed],https://stackoverflow.com/questions/78931923/%d0%9f%d0%be%d0%bc%d0%be%d0%b3%d0%b8%d1%82%d0%b5-%d0%bf%d0%be%d0%b6%d0%b0%d0%bb%d1%83%d0%b9%d1%81%d1%82%d0%b0-%d1%81-python-numpy-power,-4,"Я пытался возвести число в степень самым быстрым способом. В интернете я нашел, что это следует делать через numpy.power(), но когда я пытаюсь провернуть это с большими числами, то возникает проблема, ..."
+Extract information from PDF forms with many different formats,https://stackoverflow.com/questions/78931912/extract-information-from-pdf-forms-with-many-different-formats,-1,"I am looking for a way to extract information from PDF documents. We have many different models of forms in which the same information always appears.
+I have tried to use Spacy but I don't see how to ..."
+How can I efficiently parse a complex JSON object with dynamic keys in Python for managing shipping container data? [closed],https://stackoverflow.com/questions/78931884/how-can-i-efficiently-parse-a-complex-json-object-with-dynamic-keys-in-python-fo,0,I'm working on a project for a shipping container company where we need to process data from an external API that provides information about container shipments. The JSON data structure returned by ...
+How to deploy a Python Azure Function app from a mono-repo?,https://stackoverflow.com/questions/78931861/how-to-deploy-a-python-azure-function-app-from-a-mono-repo,-1,"Following on from this question, I've got a mono-repo containing a Flask API and the first of what will be several Azure Function apps. I'm trying to deploy the app to Azure from an Azure DevOps ..."
+Is there a simple way to execute dll methods as local system in windows from python script,https://stackoverflow.com/questions/78931850/is-there-a-simple-way-to-execute-dll-methods-as-local-system-in-windows-from-pyt,0,"I want to program a Python script that interacts with a DLL file. The DLL file needs to be run with Local System privileges.
+My approach:
+I am using the ctypes library in Python to interact with the ..."
+"In Python unittest log testname, expected value and actual value into a separate file",https://stackoverflow.com/questions/78931843/in-python-unittest-log-testname-expected-value-and-actual-value-into-a-separate,0,"I have used the standard python unittest framework to create a testsuite for my hardware that read values from sensors. A test might look like below (a bit simplified)
+def test_temperature1(self):
+   ..."
+Delay in authentication from IIS resulting in site cannot be reached error for split seconds,https://stackoverflow.com/questions/78931827/delay-in-authentication-from-iis-resulting-in-site-cannot-be-reached-error-for-s,-1,"I need some help for some weird Issue,
+I have authentication enable in my IIS server to host flask website. When I enter my credential, IIS take 2-3 second to process it and for that 2-3 second, I am ..."
+Why can I unpack a Python set when sets are unordered?,https://stackoverflow.com/questions/78931736/why-can-i-unpack-a-python-set-when-sets-are-unordered,1,"I am quite used to unpacking sequences in Python like:
+my_tuple = (1, 2, 3)
+
+a, b, c = my_tuple
+
+I have noticed that I can also do it with sets:
+my_set = set((1, 2, 3))
+
+a, b, c = my_set
+
+Why can I do ..."
+Correct syntax for powershell python based json config changes,https://stackoverflow.com/questions/78931729/correct-syntax-for-powershell-python-based-json-config-changes,1,"I am trying to change the config of this python program that I got from Git Hub, https://github.com/KraXen72/shira.
+I am running this program on powershell. However when I try to add the location of ..."
+Count and groupby a specfic value,https://stackoverflow.com/questions/78931722/count-and-groupby-a-specfic-value,1,"I have a dataframe where i want to count a specific value that occurs in a row.
+This code below gives the right answer and now i want to add a new coluumn to my dataframe
+occur = df.groupby(['..."
+Test case errors for Validation Script for Emails and Passwords program,https://stackoverflow.com/questions/78931706/test-case-errors-for-validation-script-for-emails-and-passwords-program,0,"I am doing the following task:
+
+Write a program for Master Your Credentials: A Tricky Validation Script for Emails and Passwords
+Instructions
+
+Get the input their email address
+Use validate_email() to ..."
+What's the right statistical test in python,https://stackoverflow.com/questions/78931696/whats-the-right-statistical-test-in-python,0,"I have two datasets, one has predicted values (with confidence levels) and the other has actual values (as well as some unknowns)
+What I am trying to do is determine what confidence level we need so ..."
+Start menu of a game with Python [duplicate],https://stackoverflow.com/questions/78931689/start-menu-of-a-game-with-python,-3,"I want to have a PLAY and QUIT menu for a game with Python. So, here is my code for the game itself, but when it comes to adding buttons, I don't get the result I want. As I read, before I could add a ..."
+How to write the path in python to access a folder from windows desktop,https://stackoverflow.com/questions/78931644/how-to-write-the-path-in-python-to-access-a-folder-from-windows-desktop,-1,"C:\Users\jisha>cd \Desktop\ExerciseFiles\   --- this is the command i have given in command prompt in Windows.
+The system cannot find the path specified.    ----this is the error message.
+I want to ..."
+Mutually exclusive group with multiple argument groups,https://stackoverflow.com/questions/78931640/mutually-exclusive-group-with-multiple-argument-groups,0,"I am wondering if I could parse arguments using Python and argparse, like:
+usage: PROG [-h] [--foo] (bar [baz] qux | file)
+
+which allows following usages:
+PROG aaa bbb ccc --foo    # foo=True bar='aaa'..."
+Using groupby and size with a to count specific value dataframe [duplicate],https://stackoverflow.com/questions/78931616/using-groupby-and-size-with-a-to-count-specific-value-dataframe,-3,"I Have a datframe that look like this:
+
+i want to make a count how much per ""Code_5e laag"" is essentieel and optioneel
+I made a new dataframE where i count the amount of skills in each ""..."
+pandas - fill missing value from other matching records on multiple columns within same dataframe [duplicate],https://stackoverflow.com/questions/78931541/pandas-fill-missing-value-from-other-matching-records-on-multiple-columns-with,0,"I have a dataframe with the following data
+RowID
+Column 1
+Column 2
+Column 3
+Column 4
+Column 5
+Column ID
+1
+A
+B
+C
+D
+E
+nan
+2
+A
+B
+C
+D
+E
+nan
+3
+A
+B
+C
+D
+E
+a1234
+4
+B
+C
+D
+E
+F
+nan
+5
+B
+C
+D
+E
+F
+b2345
+6
+C
+D
+..."
+"Python Dash: Numericnput value max, value min relationship",https://stackoverflow.com/questions/78931537/python-dash-numericnput-value-max-value-min-relationship,0,"I have a simple NumericInput feature using Python dash. I want the Numericinput to have a range from -100 to 100 with the default value at 0. The problem is when I set the value = 0,  the default ..."
+Conditional deduplication in polars,https://stackoverflow.com/questions/78931529/conditional-deduplication-in-polars,4,"I have a dataset i'm trying to remove duplicate entries from. The lazyframe i'm working with is structured like this:
+df = pl.from_repr(""""""
+┌──────┬────────────┬──────────────────┬──────..."
+How to pass argument into schedule_task for Locust?,https://stackoverflow.com/questions/78931521/how-to-pass-argument-into-schedule-task-for-locust,0,"Let's say that my test case is to get list of articles at news site and make a comment for the articles.
+Here is how my code may look:
+class MyTasks(TaskSet):
+  def post_comment(self. article_id: int):..."
+Django LoginView doesn't show any error if I enter wrong input [duplicate],https://stackoverflow.com/questions/78931483/django-loginview-doesnt-show-any-error-if-i-enter-wrong-input,0,"I'm using django built in authentication to login the problem is when I'm enter wrong email or password no errors comes up
+views.py
+from django.contrib.auth.views import LoginView,LogoutView
+
+class ..."
+Issue with Importing `sampler` Module from `hlda` Library in Pytho,https://stackoverflow.com/questions/78931425/issue-with-importing-sampler-module-from-hlda-library-in-pytho,0,I'm working on a project where I need to use the hlda library in Python for hierarchical topic modeling. I installed the hlda library using pip and am trying to import the HierarchicalLDA class from ...
+FastAPI & Authlib external oauth authentication reuse authlib client,https://stackoverflow.com/questions/78931403/fastapi-authlib-external-oauth-authentication-reuse-authlib-client,0,"I have trouble understanding how the Authlib middleware works with fastAPI.
+I have something working, but I don't think it's the right way to do it.
+What I would like is to be able to create a client ..."
+How to pass shell variable returned from pythonscript into another shell to run another pythonscript in Makefile rule?,https://stackoverflow.com/questions/78931386/how-to-pass-shell-variable-returned-from-pythonscript-into-another-shell-to-run,-1,"I am trying for several hours and researched how to pass a shell variable which is returned from a pythonscript into another shellscript to run another pythonscript.
+I have an example below:
+MyRule:
+..."
+AWS Lambda runtime error with gogole chromedriver selenium deployed on ECR,https://stackoverflow.com/questions/78931353/aws-lambda-runtime-error-with-gogole-chromedriver-selenium-deployed-on-ecr,0,I am trying to create a automated process of accepting snapchat invatation to organization. The way it works is we have an email and we get invites to different organizations. Then I use AWS lambda to ...
+Python function app how to terminate after a timer without harming other functions,https://stackoverflow.com/questions/78931345/python-function-app-how-to-terminate-after-a-timer-without-harming-other-functio,0,"I have inherited a collection of Python functions that are capable of deadlocking(this can happen at several places in the code), when that happens they seize all function time out on the Function app ..."
+Alexa json retrieval from S3,https://stackoverflow.com/questions/78931334/alexa-json-retrieval-from-s3,0,"So, I'm using the custom deployment template for Alexa. I've just started out coding with Alexa, but I have Python experience.
+I'm just playing around with the boilerplate code provided. I'm testing ..."
+How to correctly extract white pixels from binary images and display them correctly on the plotlib?,https://stackoverflow.com/questions/78931308/how-to-correctly-extract-white-pixels-from-binary-images-and-display-them-correc,0,"This is a binary image, I want to calculate the distance between two edges of the pixel, then display it on a drawing board. I handle it when it does not have branches, but when it has branches like ..."
+init__() got an unexpected keyword argument [closed],https://stackoverflow.com/questions/78931301/init-got-an-unexpected-keyword-argument,-3,"Trying to build a trading bot.
+My synipist are....
+
+if ssid:
+    driver.quit()
+qx_api = Quotex(set_ssid=ssid, host=host, user_agent=user_agent, weboscket_cookie=weboscket_cookie)
+check, reason = ..."
+NameError: name 'process' is not defined,https://stackoverflow.com/questions/78931299/nameerror-name-process-is-not-defined,-1,"I have a base64 string with python function. I want to run this python code
+My code:
+import base64
+def apply_script(custom_script: str, spark_df=None):
+    script_encoded = base64.b64decode(..."
+Computing intersection of multiple cones with Python,https://stackoverflow.com/questions/78931290/computing-intersection-of-multiple-cones-with-python,0,"I am trying to perform the intersection of 3 cones with python.
+In particular, I'm using PyVista to generate the cones in the 3D space and then I use the boolean_intersection function to get the ..."
+Django I can't access the Image.url of the ImageField object,https://stackoverflow.com/questions/78931258/django-i-cant-access-the-image-url-of-the-imagefield-object,1,"Hey im new in django and Im playing with uploading and showing images here.
+I have a model product :
+class Product(models.Model):
+title = models.CharField(""Title"",max_length=50)
+description =..."
+How can I import tensorflow on juypyter notebook? [closed],https://stackoverflow.com/questions/78931248/how-can-i-import-tensorflow-on-juypyter-notebook,-1,"I try to use !pip install tensorflow but this error happens ? i don't know why, what is Os error here , i write the code correctly.My expected result is tensorflow installed successfully., I haven't ..."
+How can I improve image destriping using python? [closed],https://stackoverflow.com/questions/78931219/how-can-i-improve-image-destriping-using-python,0,"I've got some images (attached) that have pervasive and aperiodic vertical striping. I've been attempting to remove it using Python, but have so far been unable to do so effectively. What processing ..."
+How to interpolate 3d variable like RAINC from netcdf file using wrf-python,https://stackoverflow.com/questions/78931210/how-to-interpolate-3d-variable-like-rainc-from-netcdf-file-using-wrf-python,0,"Currently ,I am working on netcdf file ,from which i need to extract data using wrf-python and plot in the graph,
+while plotting , i got an issue ( i have attached the image, you can refer it).
+Before ..."
+Does Spotify's voyager library support StringIndexes in Python?,https://stackoverflow.com/questions/78931162/does-spotifys-voyager-library-support-stringindexes-in-python,0,"There's a spotify blog article stating that voyager supports string-based identifiers.
+The Voyager python API doesn't mention anything about that though...
+The Voyager Java API does have a StringIndex...."
+Pytest assert the original exception raised using `raise AnyException from MyExceptionToAssert`,https://stackoverflow.com/questions/78931121/pytest-assert-the-original-exception-raised-using-raise-anyexception-from-myexc,1,"I wrote a suit of tests that asserts exception (following what was said here How do I properly assert that an exception gets raised in pytest? and in the doc). However, there is once instance of my ..."
+Deleting/Replacing Cythonized Modules,https://stackoverflow.com/questions/78931091/deleting-replacing-cythonized-modules,0,"I want to delete and/or replace cythonized module created with cython (command line utility) but I couldn't find any information on how to do it. How do I delete/replace it? Thanks.
+OS: Windows 11
+..."
+Abstract base class function pointer python,https://stackoverflow.com/questions/78931082/abstract-base-class-function-pointer-python,2,"I'd like to make an abstraction of one of my api classes to resolve the following problem. Let's say I have a base class like:
+class AbstractAPI(ABC):
+    @abstractmethod
+    def create(self):
+        ..."
+Selecting values ​from multiple columns [duplicate],https://stackoverflow.com/questions/78931075/selecting-values-from-multiple-columns,0,"I have a dataframe with option prices, with option tickers listed by columns and trade dates listed by rows. There is also the last column, My_tickers, that lists the option tickers I have selected ..."
+GCP Authentication using tokens,https://stackoverflow.com/questions/78931060/gcp-authentication-using-tokens,0,"I have a desktop app and I want to use GCP cloud API. I want to authenticate using tokens. I first download the credentials andthen create a token file. Below is my code:
+SCOPES =  ['https://www...."
+How to match graph‘s node amount with my dataset？,https://stackoverflow.com/questions/78931043/how-to-match-graph-s-node-amount-with-my-dataset,0,"I have some datasets about hydrological stations which looks like this：
+    station_id    streamflow   waterlevel
+0       0           1.0             1.3
+1       0           0.5             1.6
+2      ..."
+NumPy Built-In Function to Find Largest Vector in an Matrix,https://stackoverflow.com/questions/78931016/numpy-built-in-function-to-find-largest-vector-in-an-matrix,2,"I have a 2D numpy matrix:
+arr = np.array([(1, 2), (6, 0), (3, 3), (5, 4)])
+
+I am trying to get the output:
+[5, 4]
+I have tried to do the following:
+max_arr = np.max(arr, axis=0)
+
+But this finds the ..."
+Trouble Installing ChatterBot: subprocess-exited-with-error While Processing PyYAML,https://stackoverflow.com/questions/78931005/trouble-installing-chatterbot-subprocess-exited-with-error-while-processing-pyy,0,"I tried to install chatterbot using pip install chatterbot, but I got the following error:
+(venv) PS E:\Django\Unit scripts\Chattterbot> pip install chatterbot           
+Collecting chatterbot
+  ..."
+Python logger - configuration file problem,https://stackoverflow.com/questions/78930903/python-logger-configuration-file-problem,0,"I have a logger.py configuration file, and I use it in many files in my Django project:
+logger.py:
+import datetime
+import logging
+import os
+
+cwd = os.getcwd()
+LOGS_PATH = os.path.join(cwd, ""logs&..."
+Error during installing fbprophet using pip,https://stackoverflow.com/questions/78930901/error-during-installing-fbprophet-using-pip,-1,"During installation of fbprophet using pip
+pip install fbprophet
+
+I get the below error
+  Preparing metadata (setup.py) ... error
+  error: subprocess-exited-with-error
+
+  × python setup.py egg_info ..."
+python webbrowser returns 'True' when when opening and closing url,https://stackoverflow.com/questions/78930888/python-webbrowser-returns-true-when-when-opening-and-closing-url,0,"Webbrowser returns 'True' when the script opens and closes.
+I have a script with many buttons, here I have reduced the error to one button.
+I have tried the 'simple webbrowser' as well with same ..."
+What is an equivalent of in operator for 2D Numpy array?,https://stackoverflow.com/questions/78930856/what-is-an-equivalent-of-in-operator-for-2d-numpy-array,2,"Using Python lists:
+a = [[0, 1], [3, 4]]
+b = [0, 2]
+print(b in a)
+
+I'm getting False as an output, but with Numpy arrays:
+a = np.array([[0, 1], [3, 4]])
+b = np.array([0, 2])
+print(b in a)
+
+I'm getting ..."
+Doesn't want to work pymediainfo [closed],https://stackoverflow.com/questions/78930939/doesnt-want-to-work-pymediainfo,-1,"https://pymediainfo.readthedocs.io/en/stable/
+Installed, prescribed:
+import pymediainfo
+cccc = pymediainfo.parse(""/a_bv2m_best_720.webm"")
+print(cccc)
+
+Swears at
+cccc = pymediainfo.parse(&..."
+Where can I find the code and query implementation for /api/v1/chart/ endpoint in Apache Superset?,https://stackoverflow.com/questions/78930790/where-can-i-find-the-code-and-query-implementation-for-api-v1-chart-endpoint-i,0,"I am working with Apache Superset, and I need to understand how the /api/v1/chart/ endpoint works, specifically where the code for this endpoint is located in the Superset repository. I am looking for ..."
+Extracting specific text associated value from an image or a receipt [closed],https://stackoverflow.com/questions/78930739/extracting-specific-text-associated-value-from-an-image-or-a-receipt,0,"I have an image, and from the image I want to extract key and value pair details.
+As an example, I want to extract the value of ""product:"",""volume:"",""Amount:""
+
+I have ..."
+How Can I Optimize the interpolation in calculation of SNR-EMD Denoising,https://stackoverflow.com/questions/78930732/how-can-i-optimize-the-interpolation-in-calculation-of-snr-emd-denoising,1,"I have written the following code for calculating the SNR-EMD of signal in python language:
+
+from numpy import array, sign, zeros
+from scipy.interpolate import interp1d
+
+import pandas as pd
+import ..."
+python click_btn no response,https://stackoverflow.com/questions/78930656/python-click-btn-no-response,1,"text filled in textbox but click is no response
+i am newbie, i try below programme it can help me to fill the text in text box, but it does not click to send out message and return error and try 3 ..."
+How to integerate Saleor in my Django project [closed],https://stackoverflow.com/questions/78930616/how-to-integerate-saleor-in-my-django-project,0,"I have an existing Django project that I've been working on, and I'm interested in integrating the Saleor dashboard as an app within this project. Ideally, I would like to access the Saleor dashboard ..."
+FlaskSQLAlchemy - Why are my tables not being created upon initialization?,https://stackoverflow.com/questions/78930581/flasksqlalchemy-why-are-my-tables-not-being-created-upon-initialization,0,"So I'm creating a real time chat application and I want to add authentication for my users. The problem is when I attempt to add a new user to my database I receive the following error ""..."
+HTML page to PDF using pdfkit in python django returning blank,https://stackoverflow.com/questions/78930498/html-page-to-pdf-using-pdfkit-in-python-django-returning-blank,0,"I am trying to convert an html file to pdf after passing and populating it with some data. But it is returning a blank white page.I am using pdfkit and django and below is my code.
+def generate_pdf(..."
+"Extract variable name, string , function names from a specific repeated pattern of C, C#, C++ Code [closed]",https://stackoverflow.com/questions/78930352/extract-variable-name-string-function-names-from-a-specific-repeated-pattern,0,"I have a C# Code like below that has 100s of of such repeated pattern.
+public const string AStr = ""ABC"";
+public const string BStr = ""DEF"";
+public const string MStr = ""MAX""..."
+AADSTS70000 Error When Requesting for Access Token,https://stackoverflow.com/questions/78930348/aadsts70000-error-when-requesting-for-access-token,0,"I am trying out the API for uploading a pdf file to my onedrive personal account using python script.
+I followed the procedure as according to the documentation and managed to get the authorization ..."
+Renaming a color python [closed],https://stackoverflow.com/questions/78930298/renaming-a-color-python,-4,"Hi I want the colour green to be renamed as brat, so that in my plot formula I can use color='brat' and it will make the graph the colour green in Python. pls help
+brat = color('green')
+plt.hist(data['..."
+"When I make a new Geojson file by geojson.io, do I need to fit to the exact the border of each region?",https://stackoverflow.com/questions/78930296/when-i-make-a-new-geojson-file-by-geojson-io-do-i-need-to-fit-to-the-exact-the,0,"I am making a geojson file of Berlin by myself. I am using geojson.io because it is very easy to use.
+When I draw the poligon, if the line is out of border of Berlin, is there any problem? I think ..."
+Passing table name and filter as a variable in Databricks notebook,https://stackoverflow.com/questions/78930292/passing-table-name-and-filter-as-a-variable-in-databricks-notebook,0,"My python code in databricks notebook
+qty_table = customer_master.customer_qty
+customer_id = 1000
+
+cust_qty = spark.sql(""select count(*) from ${qty_table} where id = ${customer_id}"").collect(..."
+Can I access GPIO pins in UP 7000 Edge intel development board running on windows operating system using python code? [closed],https://stackoverflow.com/questions/78930290/can-i-access-gpio-pins-in-up-7000-edge-intel-development-board-running-on-window,0,"I have an issue with accessing the 40-pin HAT GPIO in UP7000 Edge intel-Atom development device. I have installed windows 10 IOT enterprise LTSC on the Intel device. Now, as per my requirement I need ..."
+Python- How to concatenate multiple lines? [duplicate],https://stackoverflow.com/questions/78930245/python-how-to-concatenate-multiple-lines,0,"I use Python 3.12.1
+I would like to concatenate  blocks of lines, as if they were on the ""same"" line
+x = ""#"" + ""#"" + ""\\n"" + ""#""
+
+##  
+#
+
+I would like ..."
+Upgrade pre-installed python in Debian 12 running in Docker,https://stackoverflow.com/questions/78930219/upgrade-pre-installed-python-in-debian-12-running-in-docker,0,I am running a docker container that uses python:3.9.19-slim as a base image. This image uses Debian 12 which I believe comes with python3.11 pre-installed. I saw this vulnerability report so want to ...
+Is there a way for python to update an excel slicer in non-interactive mode?,https://stackoverflow.com/questions/78930209/is-there-a-way-for-python-to-update-an-excel-slicer-in-non-interactive-mode,0,"I have a python script that refreshes data connections, updates slicers and filters.
+I'm using pywin32 to update my excel file. As I understand, updating excel slicers and filters requires COM ..."
+"How do I ""not in"" to drop rows in a dataframe? [duplicate]",https://stackoverflow.com/questions/78930197/how-do-i-not-in-to-drop-rows-in-a-dataframe,0,"I'm trying to read the ""Results by State"" table into usable dataframes for me for:
+https://en.wikipedia.org/wiki/2020_United_States_presidential_election#Results_by_state
+https://en...."
+Pandas getting first alphabetically value of each group,https://stackoverflow.com/questions/78930185/pandas-getting-first-alphabetically-value-of-each-group,1,"Suppose I have a dataframe:
+df = pd.DataFrame({
+    'A': ['foo', 'foo', 'bar', 'bar', 'bar'],
+    'B': ['A', 'C', 'F', 'B', 'D']
+})
+
+And I am trying to get first alphabetically value of each group
+..."
+Python pandas to_csv output incorrect numbers [closed],https://stackoverflow.com/questions/78930162/python-pandas-to-csv-output-incorrect-numbers,-2,"I needed to get a list of account IDs from an online platform using their API, in order to do further work with the API using the output IDs.
+These are the output to CSV lines of code in the function:
+..."
+how to effeciently write chunks to partitioned dataset?,https://stackoverflow.com/questions/78930100/how-to-effeciently-write-chunks-to-partitioned-dataset,0,"I have multiple level of index in my data, for example
+schema = pa.schema(
+    [
+        ('level1', pa.dictionary(pa.int64(), pa.utf8())),
+        ('level2', pa.binary(16)),
+        ('level3', pa...."
+Why http.server does not deliver the data to the CGI script in this basic example?,https://stackoverflow.com/questions/78930091/why-http-server-does-not-deliver-the-data-to-the-cgi-script-in-this-basic-exampl,0,"I am testing the legacy CGI functionality of python http.server module by implementing a ""hello world"" alike example that sends data from a fictional ""add customer"" form from the ..."
+"How to fix error ""ModuleNotFoundError: No module named ...""?",https://stackoverflow.com/questions/78930082/how-to-fix-error-modulenotfounderror-no-module-named,1,"I'm designing a website. The project structure is
+project\
+ back_end\
+  __init.py__
+  main.py
+
+In init.py,
+from flask import Flask
+
+def create_app():
+    app = Flask(__name__)    
+    return app
+
+In ..."
+transparent gradient animation with pygame.draw.circle in pygame and despawning circles mid-animation [duplicate],https://stackoverflow.com/questions/78930076/transparent-gradient-animation-with-pygame-draw-circle-in-pygame-and-despawning,-1,"I am currently working on a simulation project, where a smaller ball bounces inside a larger circle. I successfully implemented physics, now I want to add some effects when the ball collides. I want a ..."
+how to get mean average precision values generated by lgbmranker,https://stackoverflow.com/questions/78930073/how-to-get-mean-average-precision-values-generated-by-lgbmranker,0,"I use lgbmranker for my model prediction. I use mean average precision metric and lambdarank. My code is below:
+gbm = lgb.LGBMRanker(objective='lambdarank',
+    metric= 'map',
+    boosting_type= 'gbdt'..."
+Error when requesting via aio http AttributeError: the 'NoneType' object does not have the 'connect' attribute,https://stackoverflow.com/questions/78930011/error-when-requesting-via-aio-http-attributeerror-the-nonetype-object-does-no,0,"I am writing an asynchronous parser http://freelance.habr.com where I iterate through all the tasks for a specific query. I use aio http for requests. During the execution, only some tasks give an ..."
+Aiogram: have a problem with form states in handlers,https://stackoverflow.com/questions/78930010/aiogram-have-a-problem-with-form-states-in-handlers,0,"I've got file main.py with such code:
+import asyncio
+import logging
+
+from aiogram import Bot, Dispatcher
+from aiogram.client.default import DefaultBotProperties
+from aiogram.enums import ParseMode
+
+..."
+UTF-16 as sequence of code units in python,https://stackoverflow.com/questions/78929964/utf-16-as-sequence-of-code-units-in-python,2,"I have the string 'abç' which in UTF-8 is b'ab\xc3\xa7'.
+I want it in UTF-16, but not this way:
+b'ab\xc3\xa7'.decode('utf-8').encode('utf-16-be')
+
+which gives me:
+b'\x00a\x00b\x00\xe7'
+The answer I ..."
+Load a saved on disk duckdb instance into a new in memory duckdb instance,https://stackoverflow.com/questions/78929948/load-a-saved-on-disk-duckdb-instance-into-a-new-in-memory-duckdb-instance,1,"I'm working on a project where, in a first stage, I pull some raw data, do a bunch of processing of it in duckdb, and end up with a bunch of tables that are used by a bunch of downstream components ..."
+Shouldn't adding an exogenous variable change my forecast?,https://stackoverflow.com/questions/78929911/shouldnt-adding-an-exogenous-variable-change-my-forecast,0,After i derive statistical correlations between market variables and the business segment I'm interested in forecasting... i load a number of variables and the selected segment in 1 dataframe and then ...
+Python equivalent of HttpClient PostAsync for sending an array of parameters as part of an API get request,https://stackoverflow.com/questions/78929904/python-equivalent-of-httpclient-postasync-for-sending-an-array-of-parameters-as,0,"I have been unable to find how to pass/post parameters for an enterprise API.
+This is the example from documenation in C#:
+string json = string.Empty;
+ 
+using ( HttpClient client = new HttpClient() )
+{..."
+Telegram Post Python Script: Trying Recode from asyncio to trio,https://stackoverflow.com/questions/78929900/telegram-post-python-script-trying-recode-from-asyncio-to-trio,0,"Ok, so I was successfully running a TG script on Win/python 3.12.
+But I want to run the TG script on a Pi box, python 3.11.    The script completes, but hangs at End of Main().  There are other people ..."
+Pytorch Custom Dataset CPU OOM Issue,https://stackoverflow.com/questions/78929887/pytorch-custom-dataset-cpu-oom-issue,0,"I'm having a very persistem memory issue in my dataloader than fills up memory after a arbitrary number of epochs (5-6) depending on num_workers.
+I'm 85% confident that the issue is with the dataset ..."
+TFLite model does not detect objects properly in Flutter,https://stackoverflow.com/questions/78929875/tflite-model-does-not-detect-objects-properly-in-flutter,0,"Can someone help me with the custom TF Lite model and Flutter using google_mlkit_object_detection: 0.13.0
+Currently, I use the code below to try getting the detected objects and assign labels to them:
+..."
+"In python, how do you assert the type of a variable after checking it? [duplicate]",https://stackoverflow.com/questions/78929867/in-python-how-do-you-assert-the-type-of-a-variable-after-checking-it,1,"Overview
+There is a general pattern in programming that goes like this
+if (something is not initialized) {
+    initialize the thing
+}
+do something with the initialized thing
+
+In python, I have an ..."
+Set (or avoid) frequency range using sllurp llrp on RFID reader - Speedway R220,https://stackoverflow.com/questions/78929862/set-or-avoid-frequency-range-using-sllurp-llrp-on-rfid-reader-speedway-r220,0,"I am new to sllurp, as well as RFID readers. I am trying to find out if it is possible to limit to a specific frequency range with a Speedway R220 reader. I have some devices that the readers are ..."
+Python3 alphanumeric sorting of filenames [duplicate],https://stackoverflow.com/questions/78929838/python3-alphanumeric-sorting-of-filenames,0,"in python3 how would I sort myList into the desiredOrder:
+myList = ['2', '3', '10', '4c', '4d', '4a', '4b', '5', '6', '6a', '6d', '6b', '6c', '6e', '6f', '7', '8']
+
+desiredOrder = ['2', '3', '4a', '4b'..."
+Unusual error when using DTreeviz / Graphviz in Voila Jupyter,https://stackoverflow.com/questions/78929808/unusual-error-when-using-dtreeviz-graphviz-in-voila-jupyter,0,"I am using voila to create a basic web app for my jupyter notebook. Using the example code for ""dtreeviz"" which displays a decision tree:
+from sklearn.datasets import load_iris
+from sklearn...."
+Plone REST API - Filtering search results using a value inside an object,https://stackoverflow.com/questions/78929802/plone-rest-api-filtering-search-results-using-a-value-inside-an-object,0,"I am trying to use @search or @querystring-search endpoints to limit the response to include only items with priority.token = 1.
+An item includes a priority object as follows:
+""priority"": {
+ ..."
+"Is it possible in polars to give the full schema of a LazyFrame/DataFrame in a function argument, and get type errors?",https://stackoverflow.com/questions/78929762/is-it-possible-in-polars-to-give-the-full-schema-of-a-lazyframe-dataframe-in-a-f,2,"There are occasions when I know ahead of time the full schema of a table I'm working with. In those scenarios, it would be nice to be able to specify the full schema (call it a FullyDefinedFrame). ..."
+"How to Select Rows by Custom Index after Filtering in Polars, Similar to .loc in Pandas?",https://stackoverflow.com/questions/78929750/how-to-select-rows-by-custom-index-after-filtering-in-polars-similar-to-loc-in,4,"In Pandas, after filtering/sorting a DataFrame, the row indices might become non-sequential (e.g., [0, 10, 4]). If I use .loc[10], I can retrieve the row corresponding to the original index 10 from ..."
+"(PyCharm) Discord bot (written in python) if ""Hello"" in message.content.lowe(): Not responding",https://stackoverflow.com/questions/78929731/pycharm-discord-bot-written-in-python-if-hello-in-message-content-lowe,0,"import discord, os
+
+TOKEN = 'I CANT POST IT IN THE FORM'
+
+intents = discord.Intents.default()
+
+intents.message_content = True
+intents.members = True
+intents.messages = True
+
+client = discord.Client(..."
+Any chance deploying fastembed as an AWS Lambda layer?,https://stackoverflow.com/questions/78929724/any-chance-deploying-fastembed-as-an-aws-lambda-layer,0,"The author claims that the library can be installed into AWS Lambda but I didn't have any chance installing it. Curious if anyone has any experience publishing this library as a layer.
+https://qdrant...."
+Pygame Multiplayer Game - display and receiving data problems [duplicate],https://stackoverflow.com/questions/78929721/pygame-multiplayer-game-display-and-receiving-data-problems,0,"I'm currently trying to make Catan-like Multiplayer using Pygame and I have a problem.
+I have an opening screen that I want to display while the player doesn't have a pair to send off to the game, and ..."
+how to use the ‘problems’ field in pycharm? [closed],https://stackoverflow.com/questions/78929709/how-to-use-the-problems-field-in-pycharm,0,"pycharm keeps finding ‘problems’ in the project. it's all completely useless and unfounded. don't know how it works. does anyone use it ?
+[for example, here he found an ‘indent expected’ problem]
+
+and ..."
+How can I dramatically increase the logging from running pandas.DataFrame.to_csv with an S3 target?,https://stackoverflow.com/questions/78929674/how-can-i-dramatically-increase-the-logging-from-running-pandas-dataframe-to-csv,0,"There are many closed bugs claiming that pandas.DataFrame.to_csv fails silently when saving to S3 if it has problems on the S3 side. I think that I have another, but the number of sources claiming ..."
+Using selenium to load chrome in pydroid,https://stackoverflow.com/questions/78929621/using-selenium-to-load-chrome-in-pydroid,0,"I am trying to use selenium on pydroid 3. The module and sub modules load, but the browser does not load and gives an error.
+Traceback (most recent call last):
+  File ""/data/user/0/ru.iiec...."
+One specific span tag is empty with no attributes when using Selenium/SeleniumBase,https://stackoverflow.com/questions/78929598/one-specific-span-tag-is-empty-with-no-attributes-when-using-selenium-seleniumba,0,"I'm attempting to scrape data of baseball prospects on MLB.com with Python. When I open a browser manually and view the source HTML, I see the JSON data with everything I need in the single attribute ..."
+Best data structure for AI prompt enumeration [closed],https://stackoverflow.com/questions/78929594/best-data-structure-for-ai-prompt-enumeration,-4,"I want to use a good data structure in order to create all or random prompts for AI. Like a regex, but not for matching, but for creation of texts.
+For example:
+""Photo of a ['big ', 'small ','']['..."
+Flask - Object Changes Only Inside Request Context,https://stackoverflow.com/questions/78929593/flask-object-changes-only-inside-request-context,0,"I have a strange problem in a large, multi-threaded Flask application that I've managed to reproduce here in about a dozen lines. It appears that whenever I modify the properties of an object inside a ..."
+'torch' has no attribute 'float8_e4m3fn',https://stackoverflow.com/questions/78929592/torch-has-no-attribute-float8-e4m3fn,0,"I am using Python 3.10.12 in Juppiter Lab. While running the script (from here) I keep receiving the following error.
+Traceback (most recent call last):
+  File ""/home/jupyter/work/resources/..."
+win32gui.SetForegroundWindow is generating an exception,https://stackoverflow.com/questions/78929562/win32gui-setforegroundwindow-is-generating-an-exception,0,"I know the error function is in the pywin32 package, but where, I have no idea.
+Traceback (most recent call last):
+  File ""C:\Users\phpjunkie\Python\Scripts\firefox.pyw"", line 107, in <..."
+Iterating over each dataframe in a list of dataframes and changing name of first column,https://stackoverflow.com/questions/78929543/iterating-over-each-dataframe-in-a-list-of-dataframes-and-changing-name-of-first,2,"I'm trying to iterate through a list of datraframes and do two things, replace blanks with ""_"" (which I've done) and add a suffix to the first column of each dataframe. I know I can access ..."
+How to format geom_label() values within plotnine,https://stackoverflow.com/questions/78929522/how-to-format-geom-label-values-within-plotnine,0,"When I am using plotnine, I can use mizani.labels to format the axis labels as percent strings. Is there a similar method to formate geom_label values? I cannot use label = ml.percent(""rate"")..."
+Why is one variable changing the others value in python? [duplicate],https://stackoverflow.com/questions/78929505/why-is-one-variable-changing-the-others-value-in-python,-4,"In this python code:
+food = pygame.draw
+food.amount = 0
+food.x = random.randint(gridScl, SCREEN_WIDTH - gridScl)
+print(food.x)
+food.y = random.randint(gridScl, SCREEN_HEIGHT - gridScl)
+
+snake = pygame...."
+Pandas Export to Excel with MultiIndex Column with Formatting,https://stackoverflow.com/questions/78929497/pandas-export-to-excel-with-multiindex-column-with-formatting,0,"I have a dataframe in Pandas which groups shift attendance for specific days
+DAYS = ['26-Aug','27-Aug','28-Aug']
+SHIFTS = ['S1','S2','S3']
+EMPLOYEES = ['John Doe','Jane Doe']
+
+# Create Column Index of ..."
+How to convert pydantic nested model to dictionary and push to dynamodb?,https://stackoverflow.com/questions/78929479/how-to-convert-pydantic-nested-model-to-dictionary-and-push-to-dynamodb,0,"i have a pydantic model (sample below) in my python code. I'm reading the data and pushing into dynamodb. When I print each record, it has this structure:
+{
+   ""Name"": ""jhon""
+   &..."
+Executing python function remotely [duplicate],https://stackoverflow.com/questions/78929454/executing-python-function-remotely,0,"I am trying to make a simple script to run python functions on another computer from my computer, for example I have a function called command_1(). Which prints “hi” in terminal, I want to run this ..."
+Manual Migration of an existing DB to MongoEngine doesn't populate fields,https://stackoverflow.com/questions/78929443/manual-migration-of-an-existing-db-to-mongoengine-doesnt-populate-fields,0,"I have an existing database of data that I want to use with MongoEngine. I updated the class as follows:
+class World(Document):
+    user = ReferenceAttr(choices=[""User""], required=True)
+    ..."
+How to produce a field obeying an imposed variogram?,https://stackoverflow.com/questions/78929395/how-to-produce-a-field-obeying-an-imposed-variogram,0,"I know that it is possible to construct a variogram from a given 2D field of data. However, what I would like to do is construct a 2D field of data that has a given mean and variance and obeys a ..."
+Creating gap changes over time (start and end date),https://stackoverflow.com/questions/78929385/creating-gap-changes-over-time-start-and-end-date,1,"I am still pretty new to pythons. I am trying to create a Python code to pull the extraction date in which a gap first occurred as the start_time. When the condition becomes ""Y"", then I ..."
+Python sqlite3 cached in-memory database - is it supported?,https://stackoverflow.com/questions/78929384/python-sqlite3-cached-in-memory-database-is-it-supported,0,"Python 3.12, built-in sqlite3 package on MacOS Sonoma 14.5, using PyCharm community edition.
+I'm attempting to create an in-memory sqlite3 database that can be closed and reopened for each query.
+The ..."
+Python socket (send file),https://stackoverflow.com/questions/78929381/python-socket-send-file,0,"I decided to try to create remote control of the computer's camera so that the photo would come to another PC, but I got an error. The photo is created, the code says, the moment of sending and ..."
+perform quality checks on project plans based on hierarchy,https://stackoverflow.com/questions/78929357/perform-quality-checks-on-project-plans-based-on-hierarchy,-3,"I am working with a project plan
+The plan has WBS which could be a study
+The study has a number, which ""Should"" be populated
+The population of this field is not always accurate or the way we ..."
+Spinx autodoc - Skipping members with automethod set,https://stackoverflow.com/questions/78929356/spinx-autodoc-skipping-members-with-automethod-set,0,"I'm using sphinx and a few of the files have the directive .. automethod:: set. I need a way to have sphinx show all __init__ methods, without removing the .. automethod:: directive and without any ..."
+"I am trying to select multiple check box with below HTML page, please help to locate the check box [closed]",https://stackoverflow.com/questions/78929350/i-am-trying-to-select-multiple-check-box-with-below-html-page-please-help-to-lo,0,"Not able to locate the check box elements
+self._lot_ids_selection=""//div[@class='e-checkbox-wrapper e-css e-listview-checkbox e-checkbox-left']""
+def select_lot_ids(self):
+        lots = self...."
+Why doesn't makefile work and how to fix it?,https://stackoverflow.com/questions/78929337/why-doesnt-makefile-work-and-how-to-fix-it,-1,"there is such a makefile
+define HELPBODY
+Available commands:
+
+    make help       - this thing.
+
+    make init       - install python dependancies
+    make test       - run tests and coverage
+    make ..."
+Websocket messages sent to multiple clients are not being received,https://stackoverflow.com/questions/78929336/websocket-messages-sent-to-multiple-clients-are-not-being-received,-1,"I'm making a multiplayer game and I'm making the multiplayer its own package. In my server class, I have a broadcast method and a send_to_all_except method. The problem I'm having it that the messages ..."
+"Horner's Rule, and plotting rounding errors",https://stackoverflow.com/questions/78929335/horners-rule-and-plotting-rounding-errors,1,I have been trying to understand the plot seen in Fig.2.3. I hope someone can explain it to me because I thought attempting to replicate it as instructed in Q12 would help me understand it. However I ...
+Why is tempfile.gettempdir() giving me the wrong path? [closed],https://stackoverflow.com/questions/78929334/why-is-tempfile-gettempdir-giving-me-the-wrong-path,-3,"I have code that is trying to create a directory in my temp folder.
+My code is :
+temp = os.path.join(tempfile.gettempdir(), ""HDD"")
+print(temp)
+
+And it prints:
+C:\Users\JEFFSA~1\AppData\Local\..."
+Connecting to data in a Microsoft Fabric Warehouse from a Jupyter Notebook,https://stackoverflow.com/questions/78929330/connecting-to-data-in-a-microsoft-fabric-warehouse-from-a-jupyter-notebook,-1,"Does anyone know  how to conect to a microsoft fabric warehouse using python?
+Fabric does not have the standard SQL Server details. Has anyone been able to connect to data in fabric? Any assistance ..."
+Pandas groupby and concat multiple rows,https://stackoverflow.com/questions/78929322/pandas-groupby-and-concat-multiple-rows,0,"CONTEXT
+I want to group by both a rule_id and calc_id and transform multiple columns into one row where each variable is concatenated with a "",'
+DATA EXAMPLE
+Calc_ID    Rule_ID    Name    Tracked?..."
+Tensorflow is not detecting my gpu even though i installed CUDA and CudNn,https://stackoverflow.com/questions/78929319/tensorflow-is-not-detecting-my-gpu-even-though-i-installed-cuda-and-cudnn,0,"I've tried to install TensorFlow on my machine so I can perform Ai model training. I've installed the CUDA and cuDnn models following this tutorial but even then when I tried running
+import tensorflow ..."
+Parallel performance with xarray and dask,https://stackoverflow.com/questions/78929301/parallel-performance-with-xarray-and-dask,0,"I am trying to perform operations in parallel on a very large array using xarray. My current approach is roughly as follows:
+import numpy as np
+import xarray as xr
+
+# Read dataset (netCDF4). Holds ..."
+How to assign an integer to a 3 byte ndarray?,https://stackoverflow.com/questions/78929293/how-to-assign-an-integer-to-a-3-byte-ndarray,0,"I have (W)RGB color data as integers, and I'd like to store it in a numpy ndarray of uint8.
+If I have a WRGB color, I can assign the int value to a view of the array:
+array = np.zeros((3,4),dtype=np...."
+Creating a pylint coverage report,https://stackoverflow.com/questions/78929276/creating-a-pylint-coverage-report,0,"We have a lot of legacy python code in our github repo that has the very useful type and pylint checks disabled:
+# type: ignore
+# pylint: skip-file
+
+In some files where this is not the case, there are ..."
+Keep a variable between two threads in python [duplicate],https://stackoverflow.com/questions/78929244/keep-a-variable-between-two-threads-in-python,1,"I'm using python Fastapi.
+I am running an application that at one point launches a job to an external service. The service then sends a webhook with the job's status, a status I receive in an endpoint ..."
+Python Pandas calcuate percentage data for each group [closed],https://stackoverflow.com/questions/78929242/python-pandas-calcuate-percentage-data-for-each-group,0,"Please refer below image. I am trying to create a new column (i.e., Group_Perc_change) in Pandas dataframe. Basically I want to check how much total percentage a stock/ticker change based on certain ..."
+Memory Leak When Using Django Bulk Create,https://stackoverflow.com/questions/78929240/memory-leak-when-using-django-bulk-create,1,"I have the following code that constantly checks an API endpoint and then if needed, adds the data to my Postgres database.
+Every iteration of this loop is leaking memory in the postgresql\operations...."
+How to Implement Consistent State Management in a Python GUI Framework Similar to Flutter?,https://stackoverflow.com/questions/78929219/how-to-implement-consistent-state-management-in-a-python-gui-framework-similar-t,1,"I'm working on a custom GUI framework in Python that aims to mimic the behavior and experience of Flutter. The framework uses HTML and CSS for rendering the GUI inside a PyWebView window, targeting ..."
+"Python """""" terminated string is detected as unterminated",https://stackoverflow.com/questions/78929186/python-terminated-string-is-detected-as-unterminated,-2,"I'm working on a project that needs encryption for packaging, and following the advice on this question I went for @Pro Chess 's method but when trying to run the code it reports this error:
+Exception ..."
+Paginating data after processing of almost all data [closed],https://stackoverflow.com/questions/78929173/paginating-data-after-processing-of-almost-all-data,-3,"Context:
+I have a MongoDB collection that contains data on service providers. I need to filter this data to generate a list of service providers based on specific criteria. The final price for a ..."
+Unable to add a column named 'Investor Type',https://stackoverflow.com/questions/78929162/unable-to-add-a-column-named-investor-type,-1,"I have a dataframe which has 500 rows * 454 columns. I want to add a column that says 'Investor Type' after every column that says 'Description'.
+So the data frame column labels look like this:
+Annual ..."
+Finding the highest key and value in a dictionary,https://stackoverflow.com/questions/78929139/finding-the-highest-key-and-value-in-a-dictionary,0,"I'm doing a task for a Python course, a 'blind auction', where each user inputs their name and bid into an empty dictionary.
+The idea is then that you loop through the dictionary, and find the highest ..."
+How to get unique value count in a Polars Series excluding null values?,https://stackoverflow.com/questions/78929128/how-to-get-unique-value-count-in-a-polars-series-excluding-null-values,2,"I am working with a Polars Series in Python and I need to obtain the number of unique values in the series. However, I want to exclude any null values from the result.
+For example, given the following ..."
+Perform user-defined function on grouped pd.Series of a pd.DataFrame,https://stackoverflow.com/questions/78929125/perform-user-defined-function-on-grouped-pd-series-of-a-pd-dataframe,1,"I am trying to apply functions to two/multiple pd.Series in a grouped pd.DataFrame and cannot wrap my head around how to do it.
+Suppose we have a pd.DataFrame with the following layout:
+import pandas ..."
+Making an Azure AI API request with the content being a big dictionary,https://stackoverflow.com/questions/78929102/making-an-azure-ai-api-request-with-the-content-being-a-big-dictionary,0,"I'm a newbie and I need to make a request like in the example below, but my issue is that 'my_dict' far to big and I keep getting '400 Bad Request' errors, and when I try to split it and make multiple ..."
+In Streamlit framework how to customize the st.file_uploader i need only browse file button. Tried all the custom css method but didn’t worked,https://stackoverflow.com/questions/78929068/in-streamlit-framework-how-to-customize-the-st-file-uploader-i-need-only-browse,0,"st.file_uploader()
+
+`
+Tried the custom css, but class name got changed
+Had also tried the bidirectional way using custom component but it didn’t worked had used JavaScript to handle the file and ..."
+pandas 2.x alternative for `mangle_dup_cols` with `read_excel()`,https://stackoverflow.com/questions/78929046/pandas-2-x-alternative-for-mangle-dup-cols-with-read-excel,1,"I have an Excel file that looks like this:
+
+In cell A1, the user can select an option and the selection B1:E3 is used as a lookup table to fill cells A2:A3. I want to read the lookup table to python ..."
