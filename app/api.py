@@ -25,4 +25,4 @@ def get_recommendations(row_num):
         return jsonify({"error": "Invalid row number"}), 400
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=int("80"), debug=True)
