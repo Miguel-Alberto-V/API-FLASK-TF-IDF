@@ -1,6 +1,5 @@
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
-import pandas as pd
 
 def get_top_recommendations(df, row_num, top_n=10):
     # Usar solo los títulos para el análisis
